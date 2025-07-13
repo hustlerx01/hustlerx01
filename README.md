@@ -6,7 +6,7 @@
 <!-- Typing Animation with Fixes -->
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&height=50&lines=Open+to+InfoSec+opportunities;Software+Engineer+(Virtual)+at+Mastercard;Building+AI-Powered+Applications;Security%7CDevOps" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&height=50&lines=Open+to+InfoSec+opportunities;Software+Engineer+(Virtual)+at+Mastercard;Building+AI-Powered+Applications;CyberSecurity%7CDevOps" />
   </a>
 </h1>
 
