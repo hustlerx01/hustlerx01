@@ -16,7 +16,7 @@
 - 🌟 Passionate about **Cybersecurity**, **AI/ML**, and **Cloud Computing**  
 - 🛠  Building AI-based projects like **Automated Penetration Testing**
 - 🌱 Learning Advanced **Threat Detection**, **Cloud Security**, and **Large Scale Systems**  
-- 📫 Contact me at **dbrightson78@gmail.com** | Visit [Portfolio](https://hustlerx.pro/)  
+- 📫 Contact me at **ansarshaikh.cyber@gmail.com** | Visit [Portfolio](https://hustlerx.pro/)  
 - ⚡ Fun Fact: **AI + Security** is my favorite combo 🔥
 
 ---
