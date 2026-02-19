@@ -71,7 +71,7 @@ Explore more: [Portfolio](https://hustlerx.pro/)
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hustlerx01&theme=react-dark&area=true&hide_border=true" width="100%"/><!-- Pull Shark Badge Test - Second PR -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hustlerx01&theme=react-dark&area=true&hide_border=true" width="100%"/>
 </p>
 
 ---
