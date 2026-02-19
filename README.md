@@ -112,3 +112,36 @@ Explore more: [Portfolio](https://hustlerx.pro/)
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Feel+free+to+connect+and+collaborate!%F0%9F%92%AC" />
 </p>
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+ <img src="https://github-profile-trophy.vercel.app/?username=hustlerx01&theme=tokyonight&margin-w=10&margin-h=10&no-frame=true"/>
+</p>
+
+---
+
+## 🌐 Connect with me
+
+<p align="center">
+ <a href="https://linkedin.com/in/hustlerx" target="_blank">
+ <img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+ </a>
+ <a href="https://github.com/hustlerx01" target="_blank">
+ <img src="https://img.shields.io/badge/Github-181717.svg?style=for-the-badge&logo=github&logoColor=white"/>
+ </a>
+ <a href="mailto:ansarshaikh.cyber@gmail.com" target="_blank">
+ <img src="https://img.shields.io/badge/Gmail-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"/>
+ </a>
+</p>
+
+---
+
+<p align="center">
+ <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Feel+free+to+connect+and+collaborate!%F0%9F%92%AC" />
+</p>
+
+<!-- Pull Shark Badge Test - First PR -->
