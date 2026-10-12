@@ -2,107 +2,63 @@
   <img src="assets/banner.svg" alt="root@hustlerx:~# whoami — Ansar Shaikh // SOC · Cloud Security · Detection Engineering" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=00372f&center=true&vCenter=true&width=520&lines=SOC+Analyst+in+the+making;Detection+Engineering;Cloud+%26+DevSecOps;AI+%2F+LLM+Security;CTF+Player+%E2%80%94+HTB+%C2%B7+THM" alt="SOC Analyst in the making · Detection Engineering · Cloud & DevSecOps · AI / LLM Security · CTF Player — HTB · THM" />
-</p>
+**Security engineer focused on detection, cloud and AI security.** I build small security tools, test them, and write down what they missed.
 
 ```bash
 ansar@hustlerx:~$ cat about.txt
 name      : Ansar Shaikh
 location  : Pune, India
 education : B.E. Information Technology (2025), Honours in Cybersecurity
-focus     : SOC · detection engineering · cloud security · AI security
 certs     : CEH Practical (EC-Council)
 ctf       : CloudSEK CTF 2025, 13th place
-now       : hunting boxes on Hack The Box & TryHackMe
+looking   : SOC / detection engineering, cloud security, AI security roles
 ```
 
-**What I focus on**
-- **SOC & detection engineering** — SIEM/IDS labs, Sigma rules as code, log triage, phishing analysis, threat intel
-- **Cloud security & DevSecOps** — hardened AWS with Terraform, CSPM checks, policy-as-code, supply-chain signing
-- **AI security** — prompt-injection testing and defenses for LLM/RAG apps, output redaction, MCP auditing
-- **DevOps / SRE** — SLO alerting, monitoring, log pipelines, GitOps and safe deployments
+## Featured projects
 
-Open to **SOC / security analyst, cloud security, DevSecOps / SRE and AI security** roles.
+### SOC & Detection
 
-## 🚀 Featured projects
-
-
-### 🛡️ SOC & Detection Engineering
-
-| Project | What it does |
+| Project | Result |
 |---|---|
-| [siem-lab](https://github.com/hustlerx01/siem-lab) | Wazuh SIEM and Suricata IDS detection lab with custom rules and tests |
-| [detection-rules-as-code](https://github.com/hustlerx01/detection-rules-as-code) | Sigma detection rules with CI linting, pySigma conversion to Splunk and TP/FP replay tests |
-| [evtx-triage](https://github.com/hustlerx01/evtx-triage) | Windows event log (EVTX) triage with ATT&CK-mapped rules on public attack samples |
-| [pcap-hunter](https://github.com/hustlerx01/pcap-hunter) | PCAP to Zeek-style logs to Suricata-style alerts to an incident ticket |
-| [soc-honeypot-lab](https://github.com/hustlerx01/soc-honeypot-lab) | Honeypot log lab with Sentinel-style detections that run locally |
-| [phishdesk-in](https://github.com/hustlerx01/phishdesk-in) | Explainable .eml phishing analyser with Indian bank/UPI lure rules |
-| [soar-mini](https://github.com/hustlerx01/soar-mini) | Small SOAR playbook: IOC enrichment with VirusTotal, AbuseIPDB and URLhaus, scoring and human approval for destructive actions |
-| [ioc-aggregator](https://github.com/hustlerx01/ioc-aggregator) | Pulls public threat-intel feeds, normalises and de-duplicates IOCs and exports STIX 2.1 |
-| [ssh-threat-feed](https://github.com/hustlerx01/ssh-threat-feed) | SSH honeypot and auth.log parser that builds a scored threat feed (txt, CSV, JSON, STIX 2.1) |
-| [SSH-Log-Alert](https://github.com/hustlerx01/SSH-Log-Alert) | Bash script that emails a Mailgun alert on successful SSH logins from IPs or countries outside an allowlist |
+| [siem-lab](https://github.com/hustlerx01/siem-lab) | Wazuh + Suricata lab with ATT&CK-mapped rules. After a decoder-routing fix, every custom Wazuh rule with a test event fires; 5/5 Suricata rules fired; 24 pytest checks pass |
+| [detection-rules-as-code](https://github.com/hustlerx01/detection-rules-as-code) | 10 Sigma rules with TP/FP tests and a CI gate. 10/10 convert to Splunk SPL; 16/16 TP hit, 0/16 FP |
+| [evtx-triage](https://github.com/hustlerx01/evtx-triage) | EVTX triage with 14 ATT&CK-mapped rules. 11/11 public attack samples flagged (tuned on the same samples) |
+| [phishdesk-in](https://github.com/hustlerx01/phishdesk-in) | Explainable .eml phishing analyser with Indian bank/UPI lure rules. Precision 0.909, recall 0.833 on 69 synthetic emails |
 
-### ☁️ Cloud Security & DevSecOps
+### Cloud & DevSecOps
 
-| Project | What it does |
+| Project | Result |
 |---|---|
-| [hardened-aws-web-tier](https://github.com/hustlerx01/hardened-aws-web-tier) | Terraform for a hardened AWS web tier: private EC2 behind an ALB, IMDSv2, SSM instead of SSH, CloudTrail, GuardDuty, KMS and GitHub OIDC. Static checks only, not applied |
-| [mini-cspm-aws](https://github.com/hustlerx01/mini-cspm-aws) | 20 CIS AWS Foundations checks in boto3, tested against a moto-mocked account |
-| [iac-scan-bench](https://github.com/hustlerx01/iac-scan-bench) | Benchmark of Checkov vs tfsec vs custom Rego on Terraform with planted misconfigurations |
-| [k8s-policy-pack](https://github.com/hustlerx01/k8s-policy-pack) | Six Pod Security controls written in both Kyverno and OPA/Rego, with a parity test |
-| [signed-by-default](https://github.com/hustlerx01/signed-by-default) | Supply-chain pipeline: cosign keyless signing, SBOM attestation, SLSA provenance and Kyverno admission |
-| [vulnops](https://github.com/hustlerx01/vulnops) | Merges Trivy, Grype and ZAP findings into one risk-ranked fix queue using CVSS, EPSS and CISA KEV |
-| [secrets-leak-guard](https://github.com/hustlerx01/secrets-leak-guard) | gitleaks config with custom rules for Indian and fintech secrets, tested like code |
-| [ansible-cis-ubuntu](https://github.com/hustlerx01/ansible-cis-ubuntu) | Ansible role applying a tested subset of CIS Level 1 hardening on Ubuntu, with an audit script |
-| [Automated-Security-Pipeline-DevSecOps](https://github.com/hustlerx01/Automated-Security-Pipeline-DevSecOps) | Jenkins DevSecOps pipeline: Maven/JUnit, SonarQube quality gate, Trivy image gate, Vault secrets, Docker Hub and Minikube deploy |
+| [hardened-aws-web-tier](https://github.com/hustlerx01/hardened-aws-web-tier) | Terraform AWS web tier: private EC2, IMDSv2, SSM, CloudTrail, GuardDuty, OIDC. tfsec 30 passed, 0 open; Trivy 0 misconfigurations (static checks, not applied) |
+| [signed-by-default](https://github.com/hustlerx01/signed-by-default) | cosign signing, SBOM attestation, SLSA provenance and Kyverno admission. Offline end-to-end run passes; keyless CI path not run yet |
+| [Automated-Security-Pipeline-DevSecOps](https://github.com/hustlerx01/Automated-Security-Pipeline-DevSecOps) | Jenkins pipeline adapted from an existing project: SonarQube quality gate, Trivy scan, Kubernetes deploy |
+| [runbook-bot](https://github.com/hustlerx01/runbook-bot) | Alertmanager alert to allow-listed diagnostics and a draft postmortem. 4/5 sample alerts matched; command-injection label blocked; 8 tests pass |
 
-### 🤖 AI Security
+### AI Security & AppSec
 
-| Project | What it does |
+| Project | Result |
 |---|---|
-| [rag-redteam](https://github.com/hustlerx01/rag-redteam) | Indirect prompt-injection harness against a local RAG app, with three defenses measured before and after |
-| [indicguard](https://github.com/hustlerx01/indicguard) | Prompt-injection detection for Hindi, Hinglish and Marathi inputs, with a benchmark |
-| [llm-redactor](https://github.com/hustlerx01/llm-redactor) | FastAPI middleware that redacts PII and secrets from LLM output |
-| [mcp-audit-lite](https://github.com/hustlerx01/mcp-audit-lite) | Static scanner for MCP server manifests: tool poisoning, hardcoded secrets and risky permissions |
-| [l1-copilot](https://github.com/hustlerx01/l1-copilot) | Local-LLM triage helper for Wazuh and SSH alerts, with input sanitisation against prompt injection |
+| [rag-redteam](https://github.com/hustlerx01/rag-redteam) | Indirect prompt-injection tests on a local RAG app. Attack success on qwen2.5:1.5b fell from 3/8 to 1/8; only the output guard helped |
+| [l1-copilot](https://github.com/hustlerx01/l1-copilot) | Local-LLM triage for Wazuh SSH alerts. Rule baseline F1 0.911 on 100 synthetic alerts; the 1.5B model reached recall 0.105 |
+| [api-qa-suite](https://github.com/hustlerx01/api-qa-suite) | API tests that catch 6/6 seeded OWASP API defects (9 failures) and pass 28/28 on the fixed build |
+| [secure-shortener](https://github.com/hustlerx01/secure-shortener) | URL shortener with each control mapped to an OWASP Top 10 test. 24 tests pass; metadata URL blocked with 400, brute force gets 429 |
 
-### ⚙️ DevOps / SRE / NOC / QA
+**More on GitHub:** [soar-mini](https://github.com/hustlerx01/soar-mini), [mini-cspm-aws](https://github.com/hustlerx01/mini-cspm-aws), [k8s-policy-pack](https://github.com/hustlerx01/k8s-policy-pack), [iac-scan-bench](https://github.com/hustlerx01/iac-scan-bench), [indicguard](https://github.com/hustlerx01/indicguard), [llm-redactor](https://github.com/hustlerx01/llm-redactor), [mcp-audit-lite](https://github.com/hustlerx01/mcp-audit-lite), [pcap-hunter](https://github.com/hustlerx01/pcap-hunter), [spring-secure-api](https://github.com/hustlerx01/spring-secure-api), [slo-lab](https://github.com/hustlerx01/slo-lab), [SSH-Log-Alert](https://github.com/hustlerx01/SSH-Log-Alert)
 
-| Project | What it does |
-|---|---|
-| [slo-lab](https://github.com/hustlerx01/slo-lab) | Multi-window multi-burn-rate SLO alerts, unit-tested with promtool and chaos-tested |
-| [noc-probe-dashboard](https://github.com/hustlerx01/noc-probe-dashboard) | NOC monitoring with probe exporters, Prometheus alert rules and Grafana dashboards |
-| [log-pipeline-lab](https://github.com/hustlerx01/log-pipeline-lab) | Fluent Bit to Loki log pipeline with parsing, enrichment and LogQL alert rules |
-| [runbook-bot](https://github.com/hustlerx01/runbook-bot) | runbook-bot: Alertmanager alert -> allow-listed diagnostics -> Markdown postmortem |
-| [chaos-kit](https://github.com/hustlerx01/chaos-kit) | Fault-injection kit for a sample microservice (latency, errors, outages) with measured results |
-| [bluegreen-deploy](https://github.com/hustlerx01/bluegreen-deploy) | Blue/green deployment with GitHub Actions, Docker and Nginx, with health-checked automatic rollback |
-| [gitops-homelab](https://github.com/hustlerx01/gitops-homelab) | ArgoCD app-of-apps for a security stack, validated offline with kustomize and kubeconform |
-| [api-qa-suite](https://github.com/hustlerx01/api-qa-suite) | API QA suite: pytest + schemathesis + OWASP API Top 10 checks |
+## Certifications
 
-### 🔐 Application Security
-
-| Project | What it does |
-|---|---|
-| [secure-shortener](https://github.com/hustlerx01/secure-shortener) | Secure URL shortener API: FastAPI, auth, rate limiting, OWASP-mapped tests |
-| [spring-secure-api](https://github.com/hustlerx01/spring-secure-api) | Incident-ticket CRUD REST API in Java 17 / Spring Boot 3 with JWT, RBAC and IDOR protection |
-| [webhook-payment-security-lab](https://github.com/hustlerx01/webhook-payment-security-lab) | Test-mode webhook receiver: HMAC signature checks, replay protection and idempotency keys |
-| [webvuln-scanner](https://github.com/hustlerx01/webvuln-scanner) | CLI that checks security headers, cookie flags and TLS configuration of sites you own |
-| [Browser-Autofill-Danger](https://github.com/hustlerx01/Browser-Autofill-Danger) | Live demo of autofill phishing: off-screen form fields the browser autofills without the user seeing them |
-
-## 📜 Certifications
 | Certification | Issuer | Date |
 |---|---|---|
 | Certified Ethical Hacker (CEH) Practical | EC-Council | Oct 2025 |
 | Foundation Threat Intelligence Analyst | arcX | Mar 2025 |
 | Certified AppSec Practitioner (CAP) | The SecOps Group | Mar 2024 |
 | Microsoft Azure Fundamentals (AZ-900) | Microsoft | Feb 2024 |
-| Advent of Cyber 2024 | TryHackMe | Dec 2024 |
 
-## 🏁 CTFs & labs
-- **CloudSEK CTF 2025** — 13th place
-- **CTF Player & Security Researcher**, Hack The Box & TryHackMe (Aug 2025 – present)
-- **ServiceNow** internship
+## CTFs and labs
+
+- CloudSEK CTF 2025: 13th place
+- Hack The Box and TryHackMe labs, Aug 2025 to now
+- ServiceNow System Administrator virtual internship (AICTE), May to Jun 2024
 
 ## 🧰 Tech stack
 
