@@ -8,7 +8,7 @@
 
 <br/>
 
-<p align="center"><a href="https://hustlerx.si"><img src="https://img.shields.io/badge/-hustlerx.si-0b1220?style=flat-square&logo=firefoxbrowser&logoColor=5EEAD4&labelColor=0f172a"/></a>&nbsp;<img src="https://img.shields.io/badge/CEH-Practical-134e4a?style=flat-square&labelColor=0f172a"/>&nbsp;<img src="https://img.shields.io/github/followers/hustlerx01?style=flat-square&color=134e4a&labelColor=0f172a&logo=github&logoColor=5EEAD4&label=followers"/>&nbsp;<img src="https://komarev.com/ghpvc/?username=hustlerx01&style=flat-square&color=134e4a&labelColor=0f172a&label=visitors"/></p>
+<p align="center"><a href="https://hustlerx.si"><img src="https://img.shields.io/badge/-hustlerx.si-0b1220?style=flat-square&logo=firefoxbrowser&logoColor=5EEAD4&labelColor=0f172a"/></a>&nbsp;<img src="https://img.shields.io/badge/CEH-Practical-134e4a?style=flat-square&labelColor=0f172a"/>&nbsp;<img src="https://img.shields.io/github/followers/hustlerx01?style=flat-square&color=134e4a&labelColor=0f172a&logo=github&logoColor=5EEAD4&label=followers"/>&nbsp;<img src="https://visitor-badge.laobi.icu/badge?page_id=hustlerx01.hustlerx01&left_text=visitors&left_color=%230f172a&right_color=%23134e4a"/></p>
 
 </div>
 
