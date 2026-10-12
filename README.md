@@ -4,17 +4,17 @@
 
 <br/>
 
-[![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=720&lines=security+engineer+%C2%B7+detection%2C+cloud+%26+AI+security;I+build+small+security+tools+and+test+them;then+I+write+down+what+they+missed)](https://github.com/hustlerx01)
+[![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&pause=1000&color=5EEAD4&center=true&vCenter=true&width=720&lines=security+engineer+%C2%B7+detection%2C+cloud+%26+AI+security;I+build+small+security+tools+and+test+them;then+I+write+down+what+they+missed)](https://github.com/hustlerx01)
 
 <br/>
 
-<p align="center"><a href="https://hustlerx.si"><img src="https://img.shields.io/badge/-hustlerx.si-0a0612?style=flat-square&logo=firefoxbrowser&logoColor=A78BFA&labelColor=1a0f2e"/></a>&nbsp;<img src="https://img.shields.io/badge/CEH-Practical-432874?style=flat-square&labelColor=1a0f2e"/>&nbsp;<img src="https://img.shields.io/github/followers/hustlerx01?style=flat-square&color=432874&labelColor=1a0f2e&logo=github&logoColor=A78BFA&label=followers"/>&nbsp;<img src="https://komarev.com/ghpvc/?username=hustlerx01&style=flat-square&color=432874&labelColor=1a0f2e&label=visitors"/></p>
+<p align="center"><a href="https://hustlerx.si"><img src="https://img.shields.io/badge/-hustlerx.si-0b1220?style=flat-square&logo=firefoxbrowser&logoColor=5EEAD4&labelColor=0f172a"/></a>&nbsp;<img src="https://img.shields.io/badge/CEH-Practical-134e4a?style=flat-square&labelColor=0f172a"/>&nbsp;<img src="https://img.shields.io/github/followers/hustlerx01?style=flat-square&color=134e4a&labelColor=0f172a&logo=github&logoColor=5EEAD4&label=followers"/>&nbsp;<img src="https://komarev.com/ghpvc/?username=hustlerx01&style=flat-square&color=134e4a&labelColor=0f172a&label=visitors"/></p>
 
 </div>
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## &nbsp;About
+## ▸ About
 
 > Security engineer in **Pune, India**, working on detection, cloud and AI security.
 
@@ -32,7 +32,7 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## &nbsp;Journey
+## ▸ Journey
 
 <div align="center">
 <img src="./assets/journey.svg" alt="Journey timeline: 2024 to now" width="100%"/>
@@ -53,7 +53,7 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## &nbsp;Featured projects
+## ▸ Featured projects
 
 ### SOC & detection
 
@@ -87,7 +87,7 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## &nbsp;Experience & certifications
+## ▸ Experience & certifications
 
 | When | What |
 |---|---|
@@ -103,41 +103,41 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## &nbsp;Tech stack
+## ▸ Tech stack
 
 **Languages**  
-![Python](https://img.shields.io/badge/Python-0a0612?style=flat-square&logo=python&logoColor=A78BFA) ![Bash](https://img.shields.io/badge/Bash-0a0612?style=flat-square&logo=gnubash&logoColor=A78BFA) ![Java](https://img.shields.io/badge/Java-0a0612?style=flat-square&logo=openjdk&logoColor=A78BFA) ![JavaScript](https://img.shields.io/badge/JavaScript-0a0612?style=flat-square&logo=javascript&logoColor=A78BFA) ![TypeScript](https://img.shields.io/badge/TypeScript-0a0612?style=flat-square&logo=typescript&logoColor=A78BFA)
+![Python](https://img.shields.io/badge/Python-0b1220?style=flat-square&logo=python&logoColor=5EEAD4) ![Bash](https://img.shields.io/badge/Bash-0b1220?style=flat-square&logo=gnubash&logoColor=5EEAD4) ![Java](https://img.shields.io/badge/Java-0b1220?style=flat-square&logo=openjdk&logoColor=5EEAD4) ![JavaScript](https://img.shields.io/badge/JavaScript-0b1220?style=flat-square&logo=javascript&logoColor=5EEAD4) ![TypeScript](https://img.shields.io/badge/TypeScript-0b1220?style=flat-square&logo=typescript&logoColor=5EEAD4)
 
 **Frameworks**  
-![FastAPI](https://img.shields.io/badge/FastAPI-1a0f2e?style=flat-square&logo=fastapi&logoColor=A78BFA) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-1a0f2e?style=flat-square&logo=springboot&logoColor=A78BFA) ![React](https://img.shields.io/badge/React-1a0f2e?style=flat-square&logo=react&logoColor=A78BFA) ![pytest](https://img.shields.io/badge/pytest-1a0f2e?style=flat-square&logo=pytest&logoColor=A78BFA)
+![FastAPI](https://img.shields.io/badge/FastAPI-0f172a?style=flat-square&logo=fastapi&logoColor=5EEAD4) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0f172a?style=flat-square&logo=springboot&logoColor=5EEAD4) ![React](https://img.shields.io/badge/React-0f172a?style=flat-square&logo=react&logoColor=5EEAD4) ![pytest](https://img.shields.io/badge/pytest-0f172a?style=flat-square&logo=pytest&logoColor=5EEAD4)
 
 **Cloud & IaC**  
-![AWS](https://img.shields.io/badge/AWS-2d1b4e?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-2d1b4e?style=flat-square&logo=terraform&logoColor=A78BFA) ![Ansible](https://img.shields.io/badge/Ansible-2d1b4e?style=flat-square&logo=ansible&logoColor=A78BFA) ![Checkov](https://img.shields.io/badge/Checkov-2d1b4e?style=flat-square&logo=paloaltonetworks&logoColor=A78BFA)
+![AWS](https://img.shields.io/badge/AWS-1e293b?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-1e293b?style=flat-square&logo=terraform&logoColor=5EEAD4) ![Ansible](https://img.shields.io/badge/Ansible-1e293b?style=flat-square&logo=ansible&logoColor=5EEAD4) ![Checkov](https://img.shields.io/badge/Checkov-1e293b?style=flat-square&logo=paloaltonetworks&logoColor=5EEAD4)
 
 **Containers & CI/CD**  
-![Docker](https://img.shields.io/badge/Docker-432874?style=flat-square&logo=docker&logoColor=E8D5B7) ![Kubernetes](https://img.shields.io/badge/Kubernetes-432874?style=flat-square&logo=kubernetes&logoColor=E8D5B7) ![Argo CD](https://img.shields.io/badge/Argo%20CD-432874?style=flat-square&logo=argo&logoColor=E8D5B7) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-432874?style=flat-square&logo=githubactions&logoColor=E8D5B7) ![Jenkins](https://img.shields.io/badge/Jenkins-432874?style=flat-square&logo=jenkins&logoColor=E8D5B7) ![Kyverno](https://img.shields.io/badge/Kyverno-432874?style=flat-square&logo=kubernetes&logoColor=E8D5B7) ![OPA](https://img.shields.io/badge/OPA-432874?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-134e4a?style=flat-square&logo=docker&logoColor=E2E8F0) ![Kubernetes](https://img.shields.io/badge/Kubernetes-134e4a?style=flat-square&logo=kubernetes&logoColor=E2E8F0) ![Argo CD](https://img.shields.io/badge/Argo%20CD-134e4a?style=flat-square&logo=argo&logoColor=E2E8F0) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-134e4a?style=flat-square&logo=githubactions&logoColor=E2E8F0) ![Jenkins](https://img.shields.io/badge/Jenkins-134e4a?style=flat-square&logo=jenkins&logoColor=E2E8F0) ![Kyverno](https://img.shields.io/badge/Kyverno-134e4a?style=flat-square&logo=kubernetes&logoColor=E2E8F0) ![OPA](https://img.shields.io/badge/OPA-134e4a?style=flat-square)
 
 **Security & Detection**  
-![Wazuh](https://img.shields.io/badge/Wazuh-0a0612?style=flat-square) ![Suricata](https://img.shields.io/badge/Suricata-0a0612?style=flat-square) ![Zeek](https://img.shields.io/badge/Zeek-0a0612?style=flat-square) ![Sigma](https://img.shields.io/badge/Sigma-0a0612?style=flat-square) ![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-0a0612?style=flat-square) ![Trivy](https://img.shields.io/badge/Trivy-0a0612?style=flat-square&logo=trivy&logoColor=A78BFA) ![OWASP ZAP](https://img.shields.io/badge/OWASP%20ZAP-0a0612?style=flat-square&logo=zap&logoColor=A78BFA) ![cosign](https://img.shields.io/badge/cosign-0a0612?style=flat-square) ![gitleaks](https://img.shields.io/badge/gitleaks-0a0612?style=flat-square&logo=git&logoColor=A78BFA)
+![Wazuh](https://img.shields.io/badge/Wazuh-0b1220?style=flat-square) ![Suricata](https://img.shields.io/badge/Suricata-0b1220?style=flat-square) ![Zeek](https://img.shields.io/badge/Zeek-0b1220?style=flat-square) ![Sigma](https://img.shields.io/badge/Sigma-0b1220?style=flat-square) ![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-0b1220?style=flat-square) ![Trivy](https://img.shields.io/badge/Trivy-0b1220?style=flat-square&logo=trivy&logoColor=5EEAD4) ![OWASP ZAP](https://img.shields.io/badge/OWASP%20ZAP-0b1220?style=flat-square&logo=zap&logoColor=5EEAD4) ![cosign](https://img.shields.io/badge/cosign-0b1220?style=flat-square) ![gitleaks](https://img.shields.io/badge/gitleaks-0b1220?style=flat-square&logo=git&logoColor=5EEAD4)
 
 **Observability**  
-![Prometheus](https://img.shields.io/badge/Prometheus-1a0f2e?style=flat-square&logo=prometheus&logoColor=A78BFA) ![Grafana](https://img.shields.io/badge/Grafana-1a0f2e?style=flat-square&logo=grafana&logoColor=A78BFA) ![Loki](https://img.shields.io/badge/Loki-1a0f2e?style=flat-square&logo=grafana&logoColor=A78BFA) ![Fluent Bit](https://img.shields.io/badge/Fluent%20Bit-1a0f2e?style=flat-square&logo=fluentbit&logoColor=A78BFA)
+![Prometheus](https://img.shields.io/badge/Prometheus-0f172a?style=flat-square&logo=prometheus&logoColor=5EEAD4) ![Grafana](https://img.shields.io/badge/Grafana-0f172a?style=flat-square&logo=grafana&logoColor=5EEAD4) ![Loki](https://img.shields.io/badge/Loki-0f172a?style=flat-square&logo=grafana&logoColor=5EEAD4) ![Fluent Bit](https://img.shields.io/badge/Fluent%20Bit-0f172a?style=flat-square&logo=fluentbit&logoColor=5EEAD4)
 
 **Platforms**  
-![Linux](https://img.shields.io/badge/Linux-2d1b4e?style=flat-square&logo=linux&logoColor=A78BFA) ![Nginx](https://img.shields.io/badge/Nginx-2d1b4e?style=flat-square&logo=nginx&logoColor=A78BFA)
+![Linux](https://img.shields.io/badge/Linux-1e293b?style=flat-square&logo=linux&logoColor=5EEAD4) ![Nginx](https://img.shields.io/badge/Nginx-1e293b?style=flat-square&logo=nginx&logoColor=5EEAD4)
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## &nbsp;Stats
+## ▸ Stats
 
 <div align="center">
 
-<img height="180" src="https://github-stats-extended.vercel.app/api?username=hustlerx01&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0a0612&title_color=E8D5B7&text_color=C9B8D9&icon_color=A78BFA&hide=contribs,prs" alt="GitHub stats"/>
-<img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hustlerx01&layout=compact&hide_border=true&langs_count=8&bg_color=0a0612&title_color=E8D5B7&text_color=C9B8D9&icon_color=A78BFA" alt="top languages"/>
+<img height="180" src="https://github-stats-extended.vercel.app/api?username=hustlerx01&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0b1220&title_color=E2E8F0&text_color=94A3B8&icon_color=5EEAD4&hide=contribs,prs" alt="GitHub stats"/>
+<img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hustlerx01&layout=compact&hide_border=true&langs_count=8&bg_color=0b1220&title_color=E2E8F0&text_color=94A3B8&icon_color=5EEAD4" alt="top languages"/>
 
-<img height="180" src="https://streak-stats.demolab.com/?user=hustlerx01&hide_border=true&background=0a0612&stroke=432874&ring=A78BFA&fire=E8D5B7&currStreakLabel=E8D5B7&sideNums=C9B8D9&currStreakNum=E8D5B7&dates=C9B8D9&sideLabels=C9B8D9" alt="streak"/>
+<img height="180" src="https://streak-stats.demolab.com/?user=hustlerx01&hide_border=true&background=0b1220&stroke=134e4a&ring=5EEAD4&fire=E2E8F0&currStreakLabel=E2E8F0&sideNums=94A3B8&currStreakNum=E2E8F0&dates=94A3B8&sideLabels=94A3B8" alt="streak"/>
 
-<img width="100%" src="https://github-profile-trophy-unserori.vercel.app/?username=hustlerx01&theme=darkhub&no-frame=true&column=-1&margin-w=8&margin-h=8" alt="trophies"/>
+<img width="100%" src="https://github-profile-trophy-unserori.vercel.app/?username=hustlerx01&theme=gitdimmed&no-frame=true&column=-1&margin-w=8&margin-h=8" alt="trophies"/>
 
 <img width="100%" src="https://raw.githubusercontent.com/hustlerx01/hustlerx01/output/github-contribution-grid-snake-dark.svg" alt="snake eating contributions"/>
 
@@ -149,20 +149,18 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## &nbsp;Contact
+## ▸ Contact
 
 <div align="center">
 <table><tr>
-<td align="center" width="20%"><a href="https://hustlerx.si"><img src="https://api.iconify.design/lucide/globe.svg?color=%23a78bfa" width="30" height="30"/><br/><b>website</b><br/><sub>hustlerx.si</sub></a></td>
-<td align="center" width="20%"><a href="https://www.linkedin.com/in/hustlerx"><img src="https://api.iconify.design/lucide/linkedin.svg?color=%23a78bfa" width="30" height="30"/><br/><b>linkedin</b><br/><sub>in/hustlerx</sub></a></td>
-<td align="center" width="20%"><a href="https://github.com/hustlerx01"><img src="https://api.iconify.design/lucide/github.svg?color=%23a78bfa" width="30" height="30"/><br/><b>github</b><br/><sub>@hustlerx01</sub></a></td>
-<td align="center" width="20%"><a href="mailto:ansarshaikh@hustlerx.si"><img src="https://api.iconify.design/lucide/mail.svg?color=%23a78bfa" width="30" height="30"/><br/><b>email</b><br/><sub>ansarshaikh@hustlerx.si</sub></a></td>
-<td align="center" width="20%"><a href="https://discord.com/users/974323061547479120"><img src="https://api.iconify.design/lucide/message-circle.svg?color=%23a78bfa" width="30" height="30"/><br/><b>discord</b><br/><sub>message me</sub></a></td>
+<td align="center" width="20%"><a href="https://hustlerx.si"><img src="https://api.iconify.design/lucide/globe.svg?color=%235EEAD4" width="30" height="30"/><br/><b>website</b><br/><sub>hustlerx.si</sub></a></td>
+<td align="center" width="20%"><a href="https://www.linkedin.com/in/hustlerx"><img src="https://api.iconify.design/lucide/linkedin.svg?color=%235EEAD4" width="30" height="30"/><br/><b>linkedin</b><br/><sub>in/hustlerx</sub></a></td>
+<td align="center" width="20%"><a href="https://github.com/hustlerx01"><img src="https://api.iconify.design/lucide/github.svg?color=%235EEAD4" width="30" height="30"/><br/><b>github</b><br/><sub>@hustlerx01</sub></a></td>
+<td align="center" width="20%"><a href="mailto:ansarshaikh@hustlerx.si"><img src="https://api.iconify.design/lucide/mail.svg?color=%235EEAD4" width="30" height="30"/><br/><b>email</b><br/><sub>ansarshaikh@hustlerx.si</sub></a></td>
+<td align="center" width="20%"><a href="https://discord.com/users/974323061547479120"><img src="https://api.iconify.design/lucide/message-circle.svg?color=%235EEAD4" width="30" height="30"/><br/><b>discord</b><br/><sub>message me</sub></a></td>
 </tr></table>
 </div>
 
 <br/>
 
 <img src="./assets/footer.svg" width="100%"/>
-
-<p align="center"><sub>Design adapted from <a href="https://github.com/MKishoreDev">MKishoreDev</a></sub></p>

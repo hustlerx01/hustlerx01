@@ -1,97 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Journey timeline: 2021 to now">
-  <!--
-    journey.svg · a horizontal timeline that reads as one line of code.
-    Every milestone is a node on a gradient rail; the current year pulses.
-  -->
-  <defs>
-    <linearGradient id="jbg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"  stop-color="#0a0612"/>
-      <stop offset="100%" stop-color="#0c0717"/>
-    </linearGradient>
-    <linearGradient id="rail" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"   stop-color="#432874" stop-opacity="0"/>
-      <stop offset="8%"   stop-color="#6d5df6" stop-opacity="1"/>
-      <stop offset="50%"  stop-color="#a78bfa" stop-opacity="1"/>
-      <stop offset="92%"  stop-color="#e8d5b7" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="node" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#f5e6d3"/>
-      <stop offset="60%"  stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#432874" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.07"/>
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
-    </linearGradient>
-    <symbol id="milestone" overflow="visible">
-      <circle r="10" fill="url(#node)" opacity="0.35"/>
-      <circle r="4"  fill="#e8d5b7"/>
-    </symbol>
-  </defs>
-
-  <rect width="1200" height="280" fill="url(#jbg)"/>
-  <rect width="1200" height="280" fill="url(#shimmer)" pointer-events="none">
-    <animate attributeName="x" values="-1200;1200" dur="4s" repeatCount="indefinite" begin="0.6s"/>
-  </rect>
-
-  <!-- section label -->
-  <text x="60" y="42" font-family="ui-monospace,monospace" font-size="11" letter-spacing="3" fill="#8a7a9d">
-    02 · JOURNEY  ── from coursework to CTFs
-  </text>
-
-  <!-- rail -->
-  <line x1="80" y1="130" x2="1120" y2="130" stroke="url(#rail)" stroke-width="2.5" opacity="0.9"/>
-  <line x1="80" y1="130" x2="1120" y2="130" stroke="url(#rail)" stroke-width="6" opacity="0.15"/>
-
-  <!-- year ticks -->
-  <g font-family="ui-monospace,monospace" font-size="12" fill="#c9b8d9" text-anchor="middle">
-    <g transform="translate(140 130)">
-      <use href="#milestone"/>
-      <text y="-24" fill="#e8d5b7">2021</text>
-      <text y="34" font-size="10" fill="#8a7a9d">Joined Sinhgad Institute of</text>
-      <text y="50" font-size="10" fill="#8a7a9d">Technology &amp; Science (SPPU)</text>
-      <text y="66" font-size="10" fill="#a78bfa">B.E. IT · Cybersecurity honours</text>
-    </g>
-    <g transform="translate(370 130)">
-      <use href="#milestone"/>
-      <text y="-24" fill="#e8d5b7">May – Jun 2024</text>
-      <text y="34" font-size="10" fill="#8a7a9d">ServiceNow System Admin</text>
-      <text y="50" font-size="10" fill="#8a7a9d">virtual internship · AICTE</text>
-    </g>
-    <g transform="translate(600 130)">
-      <use href="#milestone"/>
-      <text y="-24" fill="#e8d5b7">Jul 2025</text>
-      <text y="34" font-size="10" fill="#8a7a9d">Graduated B.E. IT</text>
-      <text y="50" font-size="10" fill="#8a7a9d">Cybersecurity honours</text>
-      <text y="66" font-size="10" fill="#a78bfa">CGPA 8.38 · no backlogs</text>
-    </g>
-    <g transform="translate(830 130)">
-      <circle r="14" fill="#a78bfa" opacity="0.25">
-        <animate attributeName="r" values="10;18;10" dur="3s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.35;0.05;0.35" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <use href="#milestone"/>
-      <text y="-24" fill="#f5e6d3">Aug 2025 → now</text>
-      <text y="34" font-size="10" fill="#a78bfa">CTF player · security researcher</text>
-      <text y="50" font-size="10" fill="#8a7a9d">Hack The Box · TryHackMe</text>
-    </g>
-    <g transform="translate(1060 130)">
-      <use href="#milestone"/>
-      <text y="-24" fill="#e8d5b7">Oct 2025</text>
-      <text y="34" font-size="10" fill="#8a7a9d">CEH Practical</text>
-      <text y="50" font-size="10" fill="#8a7a9d">EC-Council</text>
-    </g>
-  </g>
-
-  <!-- terminal footer -->
-  <g transform="translate(60 252)">
-    <text font-family="ui-monospace,monospace" font-size="10.5" fill="#6d5da8" letter-spacing="1.5">
-      <tspan fill="#a78bfa">$</tspan> git log --since=2021 --pretty=oneline
-    </text>
-    <rect x="315" y="-8" width="6" height="10" fill="#e8d5b7">
-      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Journey timeline: 2021 to now">
+<defs><pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="16" r=".8" fill="#1e293b"/></pattern></defs>
+<rect width="1200" height="320" fill="#0b1220"/><rect width="1200" height="320" fill="url(#dots)"/>
+<text x="60" y="22" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="12" fill="#64748b">$ cat journey.log</text>
+<path d="M40 165 H1160" stroke="#1e293b" stroke-width="6" fill="none"/><path d="M40 165 H1160" stroke="#2dd4bf" stroke-width="1.5" fill="none" opacity=".7"/>
+<circle r="4" fill="#5eead4"><animateMotion dur="6s" repeatCount="indefinite" path="M40 165 H1160"/></circle>
+<path d="M140 165 V115" stroke="#2dd4bf" stroke-width="1.5" opacity=".7"/>
+<rect x="134" y="159" width="12" height="12" fill="#0f172a" stroke="#5eead4" stroke-width="1.5"/>
+<circle cx="140" cy="115" r="4" fill="#0b1220" stroke="#5eead4" stroke-width="1.5"/>
+<text x="140" y="56" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="12.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">2021</text>
+<text x="140" y="71" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">Joined Sinhgad Institute of</text>
+<text x="140" y="86" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">Technology &amp; Science (SPPU)</text>
+<text x="140" y="101" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">B.E. IT · Cybersecurity honours</text>
+<path d="M370 165 V215" stroke="#2dd4bf" stroke-width="1.5" opacity=".7"/>
+<rect x="364" y="159" width="12" height="12" fill="#0f172a" stroke="#5eead4" stroke-width="1.5"/>
+<circle cx="370" cy="215" r="4" fill="#0b1220" stroke="#5eead4" stroke-width="1.5"/>
+<text x="370" y="235" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="12.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">May – Jun 2024</text>
+<text x="370" y="250" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">ServiceNow System Admin</text>
+<text x="370" y="265" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">virtual internship · AICTE</text>
+<path d="M600 165 V115" stroke="#2dd4bf" stroke-width="1.5" opacity=".7"/>
+<rect x="594" y="159" width="12" height="12" fill="#0f172a" stroke="#5eead4" stroke-width="1.5"/>
+<circle cx="600" cy="115" r="4" fill="#0b1220" stroke="#5eead4" stroke-width="1.5"/>
+<text x="600" y="56" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="12.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">Jul 2025</text>
+<text x="600" y="71" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">Graduated B.E. IT</text>
+<text x="600" y="86" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">Cybersecurity honours</text>
+<text x="600" y="101" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">CGPA 8.38 · no backlogs</text>
+<path d="M830 165 V215" stroke="#2dd4bf" stroke-width="1.5" opacity=".7"/>
+<rect x="824" y="159" width="12" height="12" fill="#0f172a" stroke="#5eead4" stroke-width="1.5"/>
+<rect x="824" y="159" width="12" height="12" fill="#5eead4"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></rect>
+<circle cx="830" cy="215" r="4" fill="#0b1220" stroke="#5eead4" stroke-width="1.5"/>
+<text x="830" y="235" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="12.5" font-weight="700" fill="#5eead4" text-anchor="middle">Aug 2025 → now</text>
+<text x="830" y="250" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">CTF player · security researcher</text>
+<text x="830" y="265" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">Hack The Box · TryHackMe</text>
+<path d="M1060 165 V115" stroke="#2dd4bf" stroke-width="1.5" opacity=".7"/>
+<rect x="1054" y="159" width="12" height="12" fill="#0f172a" stroke="#5eead4" stroke-width="1.5"/>
+<circle cx="1060" cy="115" r="4" fill="#0b1220" stroke="#5eead4" stroke-width="1.5"/>
+<text x="1060" y="71" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="12.5" font-weight="700" fill="#e2e8f0" text-anchor="middle">Oct 2025</text>
+<text x="1060" y="86" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">CEH Practical</text>
+<text x="1060" y="101" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="10.5" font-weight="400" fill="#94a3b8" text-anchor="middle">EC-Council</text>
 </svg>

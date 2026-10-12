@@ -1,31 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40" role="img" aria-label="divider">
-  <!-- Thin lo-fi divider: a whisper of a line + three floating dust motes. -->
-  <defs>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#432874" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#a78bfa" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#432874" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="dot" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#e8d5b7" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#e8d5b7" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.07"/>
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="40" fill="#0a0612"/>
-  <rect width="1200" height="40" fill="url(#shimmer)" pointer-events="none">
-    <animate attributeName="x" values="-1200;1200" dur="4s" repeatCount="indefinite" begin="0.3s"/>
-  </rect>
-  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#line)" stroke-width="1"/>
-  <circle cx="480" cy="20" r="3.5" fill="url(#dot)">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="600" cy="20" r="2"   fill="#a78bfa" opacity="0.9"/>
-  <circle cx="720" cy="20" r="3.5" fill="url(#dot)">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite" begin="1.5s"/>
-  </circle>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" role="img" aria-label="divider">
+  <rect width="1200" height="24" fill="#0b1220"/>
+  <path id="d" d="M0 12 H560 L572 6 H628 L640 12 H1200" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="586" y="3" width="28" height="6" rx="1" fill="#134e4a" stroke="#2dd4bf" stroke-width=".8"/>
+  <circle r="2.5" fill="#5eead4"><animateMotion dur="5s" repeatCount="indefinite" path="M0 12 H560 L572 6 H628 L640 12 H1200"/></circle>
 </svg>
