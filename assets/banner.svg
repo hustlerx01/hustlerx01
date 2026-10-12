@@ -21,10 +21,13 @@
     <rect x="80" y="232" width="9" height="16" fill="#5eead4"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
     <text x="1120" y="266" font-size="11" fill="#64748b" text-anchor="end">github.com/hustlerx01 · hustlerx.si</text>
   </g>
-  <g transform="translate(900 92)" fill="none" stroke="#2dd4bf" stroke-width="2" opacity=".85">
-    <path d="M90 0 L160 26 V82 C160 128 126 156 90 170 C54 156 20 128 20 82 V26 Z" fill="#134e4a" fill-opacity=".35"/>
-    <path d="M60 86 L82 108 L124 64" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
-    <animate attributeName="opacity" values=".55;.95;.55" dur="3s" repeatCount="indefinite"/>
+  <g transform="translate(760 92)" xml:space="preserve" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="13">
+    <rect x="0" y="0" width="360" height="142" rx="6" fill="#0b1220" stroke="#1e293b"/>
+    <text x="16" y="24" font-size="11" fill="#64748b">-- status ---------------------</text>
+    <text x="16" y="52" fill="#94a3b8">focus  <tspan fill="#e2e8f0">detection · cloud · AI sec</tspan></text>
+    <text x="16" y="76" fill="#94a3b8">tools  <tspan fill="#e2e8f0">wazuh · sigma · suricata</tspan></text>
+    <text x="16" y="100" fill="#94a3b8">cert   <tspan fill="#e2e8f0">CEH Practical</tspan></text>
+    <text x="16" y="124" fill="#94a3b8">state  <tspan fill="#5eead4">● online</tspan></text>
   </g>
   <rect x="40" y="0" width="1120" height="40" fill="url(#scan)" clip-path="url(#win)"><animate attributeName="y" values="20;300" dur="4s" repeatCount="indefinite"/></rect>
 </svg>
