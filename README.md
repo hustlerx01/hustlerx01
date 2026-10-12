@@ -1,8 +1,21 @@
-# Hi, I'm Ansar Shaikh 👋
+<p align="center">
+  <img src="assets/banner.svg" alt="root@hustlerx:~# whoami — Ansar Shaikh // SOC · Cloud Security · Detection Engineering" width="100%" />
+</p>
 
-**Security analyst in the making — SOC, detection engineering and cloud security.** Pune, India.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=5EEAD4&center=true&vCenter=true&width=520&lines=SOC+Analyst+in+the+making;Detection+Engineering;Cloud+%26+DevSecOps;AI+%2F+LLM+Security;CTF+Player+%E2%80%94+HTB+%C2%B7+THM" alt="SOC Analyst in the making · Detection Engineering · Cloud & DevSecOps · AI / LLM Security · CTF Player — HTB · THM" />
+</p>
 
-B.E. in Information Technology (2025) with Honours in Cybersecurity, CGPA 8.38. CEH Practical certified, CTF player on Hack The Box and TryHackMe, and I build small, tested, documented labs that show how I'd detect, investigate and fix things.
+```bash
+ansar@hustlerx:~$ cat about.txt
+name      : Ansar Shaikh
+location  : Pune, India
+education : B.E. Information Technology (2025), Honours in Cybersecurity
+focus     : SOC · detection engineering · cloud security · AI security
+certs     : CEH Practical (EC-Council)
+ctf       : CloudSEK CTF 2025, 13th place
+now       : hunting boxes on Hack The Box & TryHackMe
+```
 
 **What I focus on**
 - **SOC & detection engineering** — SIEM/IDS labs, Sigma rules as code, log triage, phishing analysis, threat intel
