@@ -101,7 +101,7 @@ Open to **SOC / security analyst, cloud security, DevSecOps / SRE and AI securit
 
 ## 🏁 CTFs & labs
 - **CloudSEK CTF 2025** — 13th place
-- **CTF Player & Security Researcher**, Hack The Box & TryHackMe (Dec 2025 – present)
+- **CTF Player & Security Researcher**, Hack The Box & TryHackMe (Aug 2025 – present)
 - **ServiceNow** internship
 
 ## 🧰 Tech stack
