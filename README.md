@@ -1,8 +1,30 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="root@hustlerx:~# whoami — Ansar Shaikh // SOC · Cloud Security · Detection Engineering" width="100%" />
-</p>
+<div align="center">
 
-**Security engineer focused on detection, cloud and AI security.** I build small security tools, test them, and write down what they missed.
+<img src="./assets/banner.svg" alt="root@hustlerx:~# whoami — Ansar Shaikh // SOC · Cloud Security · Detection Engineering" width="100%"/>
+
+<br/>
+
+[![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=720&lines=security+engineer+%C2%B7+detection%2C+cloud+%26+AI+security;I+build+small+security+tools+and+test+them;then+I+write+down+what+they+missed)](https://github.com/hustlerx01)
+
+<br/>
+
+<a href="https://hustlerx.si"><img src="https://img.shields.io/badge/-hustlerx.si-0a0612?style=flat-square&logo=firefoxbrowser&logoColor=A78BFA&labelColor=1a0f2e"/></a>
+&nbsp;
+<img src="https://img.shields.io/badge/CEH-Practical-432874?style=flat-square&logo=eccouncil&logoColor=E8D5B7&labelColor=1a0f2e"/>
+&nbsp;
+<img src="https://img.shields.io/github/followers/hustlerx01?style=flat-square&color=432874&labelColor=1a0f2e&logo=github&logoColor=A78BFA&label=followers"/>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=hustlerx01&style=flat-square&color=432874&labelColor=1a0f2e&label=visitors"/>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp;About
+
+> Security engineer in **Pune, India**, working on detection, cloud and AI security.
+
+I build small security tools, test them, and write down what they missed.
 
 ```bash
 ansar@hustlerx:~$ cat about.txt
@@ -10,11 +32,12 @@ name      : Ansar Shaikh
 location  : Pune, India
 education : B.E. Information Technology (2025), Honours in Cybersecurity
 certs     : CEH Practical (EC-Council)
-ctf       : CloudSEK CTF 2025, 13th place
 looking   : SOC / detection engineering, cloud security, AI security roles
 ```
 
-## Pick a role
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp;Pick a role
 
 | Role | Page |
 |---|---|
@@ -26,7 +49,9 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 | VAPT, penetration testing & AppSec | [hustlerx.si/vapt](https://hustlerx.si/vapt) |
 | Software engineering & QA | [hustlerx.si/swe](https://hustlerx.si/swe) |
 
-## Featured projects
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp;Featured projects
 
 ### SOC & detection
 
@@ -58,7 +83,14 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 **Also built:** [hardened-aws-web-tier](https://github.com/hustlerx01/hardened-aws-web-tier), [mini-cspm-aws](https://github.com/hustlerx01/mini-cspm-aws), [k8s-policy-pack](https://github.com/hustlerx01/k8s-policy-pack), [iac-scan-bench](https://github.com/hustlerx01/iac-scan-bench), [signed-by-default](https://github.com/hustlerx01/signed-by-default), [slo-lab](https://github.com/hustlerx01/slo-lab), [bluegreen-deploy](https://github.com/hustlerx01/bluegreen-deploy), [chaos-kit](https://github.com/hustlerx01/chaos-kit), [log-pipeline-lab](https://github.com/hustlerx01/log-pipeline-lab), [spring-secure-api](https://github.com/hustlerx01/spring-secure-api), [pcap-hunter](https://github.com/hustlerx01/pcap-hunter), [ioc-aggregator](https://github.com/hustlerx01/ioc-aggregator)
 
-## Certifications
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp;Experience & certifications
+
+| When | What |
+|---|---|
+| Aug 2025 → now | **CTF Player and Security Researcher**, [Hack The Box](https://www.hackthebox.com/) & [TryHackMe](https://tryhackme.com/) |
+| May – Jun 2024 | ServiceNow System Administrator virtual internship (AICTE) |
 
 | Certification | Issuer | Date |
 |---|---|---|
@@ -67,39 +99,62 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 | Certified AppSec Practitioner (CAP) | The SecOps Group | Mar 2024 |
 | Microsoft Azure Fundamentals (AZ-900) | Microsoft | Feb 2024 |
 
-## CTFs and labs
+<img src="./assets/divider.svg" width="100%"/>
 
-- CloudSEK CTF 2025: 13th place
-- [Hack The Box](https://www.hackthebox.com/) and [TryHackMe](https://tryhackme.com/) labs, Aug 2025 to now
-- ServiceNow System Administrator virtual internship (AICTE), May to Jun 2024
-
-## 🧰 Tech stack
+## &nbsp;Tech stack
 
 **Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0a0612?style=flat-square&logo=python&logoColor=A78BFA) ![Bash](https://img.shields.io/badge/Bash-0a0612?style=flat-square&logo=gnubash&logoColor=A78BFA) ![Java](https://img.shields.io/badge/Java-0a0612?style=flat-square&logo=openjdk&logoColor=A78BFA) ![JavaScript](https://img.shields.io/badge/JavaScript-0a0612?style=flat-square&logo=javascript&logoColor=A78BFA) ![TypeScript](https://img.shields.io/badge/TypeScript-0a0612?style=flat-square&logo=typescript&logoColor=A78BFA)
 
 **Frameworks**  
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-1a0f2e?style=flat-square&logo=fastapi&logoColor=A78BFA) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-1a0f2e?style=flat-square&logo=springboot&logoColor=A78BFA) ![React](https://img.shields.io/badge/React-1a0f2e?style=flat-square&logo=react&logoColor=A78BFA) ![pytest](https://img.shields.io/badge/pytest-1a0f2e?style=flat-square&logo=pytest&logoColor=A78BFA)
 
 **Cloud & IaC**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Checkov](https://img.shields.io/badge/Checkov-5C4EE5?style=flat-square&logo=paloaltonetworks&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-2d1b4e?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-2d1b4e?style=flat-square&logo=terraform&logoColor=A78BFA) ![Ansible](https://img.shields.io/badge/Ansible-2d1b4e?style=flat-square&logo=ansible&logoColor=A78BFA) ![Checkov](https://img.shields.io/badge/Checkov-2d1b4e?style=flat-square&logo=paloaltonetworks&logoColor=A78BFA)
 
 **Containers & CI/CD**  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![Kyverno](https://img.shields.io/badge/Kyverno-1E90FF?style=flat-square&logo=kubernetes&logoColor=white) ![OPA](https://img.shields.io/badge/OPA-566366?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-432874?style=flat-square&logo=docker&logoColor=E8D5B7) ![Kubernetes](https://img.shields.io/badge/Kubernetes-432874?style=flat-square&logo=kubernetes&logoColor=E8D5B7) ![Argo CD](https://img.shields.io/badge/Argo%20CD-432874?style=flat-square&logo=argo&logoColor=E8D5B7) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-432874?style=flat-square&logo=githubactions&logoColor=E8D5B7) ![Jenkins](https://img.shields.io/badge/Jenkins-432874?style=flat-square&logo=jenkins&logoColor=E8D5B7) ![Kyverno](https://img.shields.io/badge/Kyverno-432874?style=flat-square&logo=kubernetes&logoColor=E8D5B7) ![OPA](https://img.shields.io/badge/OPA-432874?style=flat-square)
 
 **Security & Detection**  
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat-square) ![Suricata](https://img.shields.io/badge/Suricata-EF3B24?style=flat-square) ![Zeek](https://img.shields.io/badge/Zeek-2C3E50?style=flat-square) ![Sigma](https://img.shields.io/badge/Sigma-0B5394?style=flat-square) ![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-C0392B?style=flat-square) ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=trivy&logoColor=white) ![OWASP ZAP](https://img.shields.io/badge/OWASP%20ZAP-00549E?style=flat-square&logo=zap&logoColor=white) ![cosign](https://img.shields.io/badge/cosign-4051B5?style=flat-square) ![gitleaks](https://img.shields.io/badge/gitleaks-E34F26?style=flat-square&logo=git&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-0a0612?style=flat-square) ![Suricata](https://img.shields.io/badge/Suricata-0a0612?style=flat-square) ![Zeek](https://img.shields.io/badge/Zeek-0a0612?style=flat-square) ![Sigma](https://img.shields.io/badge/Sigma-0a0612?style=flat-square) ![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-0a0612?style=flat-square) ![Trivy](https://img.shields.io/badge/Trivy-0a0612?style=flat-square&logo=trivy&logoColor=A78BFA) ![OWASP ZAP](https://img.shields.io/badge/OWASP%20ZAP-0a0612?style=flat-square&logo=zap&logoColor=A78BFA) ![cosign](https://img.shields.io/badge/cosign-0a0612?style=flat-square) ![gitleaks](https://img.shields.io/badge/gitleaks-0a0612?style=flat-square&logo=git&logoColor=A78BFA)
 
 **Observability**  
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white) ![Fluent Bit](https://img.shields.io/badge/Fluent%20Bit-49BDA5?style=flat-square&logo=fluentbit&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-1a0f2e?style=flat-square&logo=prometheus&logoColor=A78BFA) ![Grafana](https://img.shields.io/badge/Grafana-1a0f2e?style=flat-square&logo=grafana&logoColor=A78BFA) ![Loki](https://img.shields.io/badge/Loki-1a0f2e?style=flat-square&logo=grafana&logoColor=A78BFA) ![Fluent Bit](https://img.shields.io/badge/Fluent%20Bit-1a0f2e?style=flat-square&logo=fluentbit&logoColor=A78BFA)
 
 **Platforms**  
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-2d1b4e?style=flat-square&logo=linux&logoColor=A78BFA) ![Nginx](https://img.shields.io/badge/Nginx-2d1b4e?style=flat-square&logo=nginx&logoColor=A78BFA)
 
-## 📫 Contact
-[![Portfolio](https://img.shields.io/badge/Portfolio-hustlerx.si-000000?style=flat-square&logo=vercel&logoColor=white)](https://hustlerx.si)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-hustlerx-0A66C2?style=flat-square)](https://www.linkedin.com/in/hustlerx)
-[![Hack The Box](https://img.shields.io/badge/Hack%20The%20Box-profile-9FEF00?style=flat-square&logo=hackthebox&logoColor=black)](https://www.hackthebox.com/)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-profile-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/)
-[![Discord](https://img.shields.io/badge/Discord-message-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/974323061547479120)
-[![Email](https://img.shields.io/badge/Email-ansarshaikh%40hustlerx.si-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ansarshaikh@hustlerx.si)
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp;Stats
+
+<div align="center">
+
+<img height="180" src="https://github-stats-extended.vercel.app/api?username=hustlerx01&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0a0612&title_color=E8D5B7&text_color=C9B8D9&icon_color=A78BFA&hide=contribs,prs" alt="GitHub stats"/>
+<img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hustlerx01&layout=compact&hide_border=true&langs_count=8&bg_color=0a0612&title_color=E8D5B7&text_color=C9B8D9&icon_color=A78BFA" alt="top languages"/>
+
+<img width="100%" src="https://streak-stats.demolab.com/?user=hustlerx01&hide_border=true&background=0a0612&stroke=432874&ring=A78BFA&fire=E8D5B7&currStreakLabel=E8D5B7&sideNums=C9B8D9&currStreakNum=E8D5B7&dates=C9B8D9&sideLabels=C9B8D9" alt="streak"/>
+
+<img width="100%" src="https://github-profile-trophy-unserori.vercel.app/?username=hustlerx01&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" alt="trophies"/>
+
+<img width="100%" src="https://raw.githubusercontent.com/hustlerx01/hustlerx01/output/github-contribution-grid-snake-dark.svg" alt="snake eating contributions"/>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp;Contact
+
+<div align="center">
+<table><tr>
+<td align="center" width="20%"><a href="https://hustlerx.si"><img src="https://api.iconify.design/lucide/globe.svg?color=%23a78bfa" width="30" height="30"/><br/><b>website</b><br/><sub>hustlerx.si</sub></a></td>
+<td align="center" width="20%"><a href="https://www.linkedin.com/in/hustlerx"><img src="https://api.iconify.design/lucide/linkedin.svg?color=%23a78bfa" width="30" height="30"/><br/><b>linkedin</b><br/><sub>in/hustlerx</sub></a></td>
+<td align="center" width="20%"><a href="https://github.com/hustlerx01"><img src="https://api.iconify.design/lucide/github.svg?color=%23a78bfa" width="30" height="30"/><br/><b>github</b><br/><sub>@hustlerx01</sub></a></td>
+<td align="center" width="20%"><a href="mailto:ansarshaikh@hustlerx.si"><img src="https://api.iconify.design/lucide/mail.svg?color=%23a78bfa" width="30" height="30"/><br/><b>email</b><br/><sub>ansarshaikh@hustlerx.si</sub></a></td>
+<td align="center" width="20%"><a href="https://discord.com/users/974323061547479120"><img src="https://api.iconify.design/lucide/message-circle.svg?color=%23a78bfa" width="30" height="30"/><br/><b>discord</b><br/><sub>message me</sub></a></td>
+</tr></table>
+</div>
+
+<br/>
+
+<img src="./assets/footer.svg" width="100%"/>
