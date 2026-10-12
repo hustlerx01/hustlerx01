@@ -51,20 +51,6 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## &nbsp;Pick a role
-
-| Role | Page |
-|---|---|
-| Security (SOC, VAPT and AI security combined) | [hustlerx.si/security](https://hustlerx.si/security) |
-| SOC analyst (L1/L2) | [hustlerx.si/soc](https://hustlerx.si/soc) |
-| Cloud security & DevSecOps | [hustlerx.si/cloud](https://hustlerx.si/cloud) |
-| DevOps, SRE & NOC | [hustlerx.si/devops](https://hustlerx.si/devops) |
-| AI security | [hustlerx.si/ai-security](https://hustlerx.si/ai-security) |
-| VAPT, penetration testing & AppSec | [hustlerx.si/vapt](https://hustlerx.si/vapt) |
-| Software engineering & QA | [hustlerx.si/swe](https://hustlerx.si/swe) |
-
-<img src="./assets/divider.svg" width="100%"/>
-
 ## &nbsp;Featured projects
 
 ### SOC & detection
