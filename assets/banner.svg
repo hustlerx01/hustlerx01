@@ -24,10 +24,10 @@
   <g transform="translate(760 92)" xml:space="preserve" font-family="'JetBrains Mono','DejaVu Sans Mono',Consolas,Menlo,monospace" font-size="13">
     <rect x="0" y="0" width="360" height="142" rx="6" fill="#0b1220" stroke="#1e293b"/>
     <text x="16" y="24" font-size="11" fill="#64748b">-- status ---------------------</text>
-    <text x="16" y="52" fill="#94a3b8">focus  <tspan fill="#e2e8f0">detection · cloud · AI sec</tspan></text>
-    <text x="16" y="76" fill="#94a3b8">tools  <tspan fill="#e2e8f0">wazuh · sigma · suricata</tspan></text>
-    <text x="16" y="100" fill="#94a3b8">cert   <tspan fill="#e2e8f0">CEH Practical</tspan></text>
-    <text x="16" y="124" fill="#94a3b8">state  <tspan fill="#5eead4">● online</tspan></text>
+    <text x="16" y="52" fill="#94a3b8">focus<tspan x="80" fill="#e2e8f0">detection · cloud · AI sec</tspan></text>
+    <text x="16" y="76" fill="#94a3b8">tools<tspan x="80" fill="#e2e8f0">wazuh · sigma · suricata</tspan></text>
+    <text x="16" y="100" fill="#94a3b8">cert <tspan x="80" fill="#e2e8f0">CEH Practical</tspan></text>
+    <text x="16" y="124" fill="#94a3b8">state<tspan x="80" fill="#5eead4">● online</tspan></text>
   </g>
   <rect x="40" y="0" width="1120" height="40" fill="url(#scan)" clip-path="url(#win)"><animate attributeName="y" values="20;300" dur="4s" repeatCount="indefinite"/></rect>
 </svg>
