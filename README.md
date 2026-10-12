@@ -27,34 +27,65 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 ## Featured projects
 
-### SOC & Detection
+### SOC analyst (L1/L2)
 
-| Project | Result |
-|---|---|
-| [siem-lab](https://github.com/hustlerx01/siem-lab) | Wazuh + Suricata lab with ATT&CK-mapped rules. After a decoder-routing fix, every custom Wazuh rule with a test event fires; 5/5 Suricata rules fired; 24 pytest checks pass |
-| [detection-rules-as-code](https://github.com/hustlerx01/detection-rules-as-code) | 10 Sigma rules with TP/FP tests and a CI gate. 10/10 convert to Splunk SPL; 16/16 TP hit, 0/16 FP |
-| [evtx-triage](https://github.com/hustlerx01/evtx-triage) | EVTX triage with 14 ATT&CK-mapped rules. 11/11 public attack samples flagged (tuned on the same samples) |
-| [phishdesk-in](https://github.com/hustlerx01/phishdesk-in) | Explainable .eml phishing analyser with Indian bank/UPI lure rules. Precision 0.909, recall 0.833 on 69 synthetic emails |
+| Project | Result | What it is |
+|---|---|---|
+| [siem-lab](https://github.com/hustlerx01/siem-lab) | 5/5 Suricata rules fired | Wazuh and Suricata in Docker with custom rules mapped to MITRE ATT&CK, replayed against public EVTX attack samples and a generated pcap. |
+| [detection-rules-as-code](https://github.com/hustlerx01/detection-rules-as-code) | 16/16 TP, 0/16 FP | 10 Sigma rules, each with true- and false-positive sample events, a linter and a CI gate. |
+| [soc-honeypot-lab](https://github.com/hustlerx01/soc-honeypot-lab) | 112 TP, 0 FP, 30 FN | Honeypot log lab with Sentinel-style detections written as KQL, Sigma and Python that run locally, scored against labelled synthetic events. |
+| [phishdesk-in](https://github.com/hustlerx01/phishdesk-in) | SPF, DKIM, DMARC + UPI lures | Explains why an .eml looks like phishing: header authentication checks plus Indian bank and UPI lure rules, tested on 69 synthetic lab emails. |
+| [soar-mini](https://github.com/hustlerx01/soar-mini) | 6/6 alert verdicts | IOC enrichment playbook: refangs indicators, queries VirusTotal, AbuseIPDB and URLhaus (mocked offline), scores them and asks a human before any block. |
 
-### Cloud & DevSecOps
+### Cloud security & DevSecOps
 
-| Project | Result |
-|---|---|
-| [hardened-aws-web-tier](https://github.com/hustlerx01/hardened-aws-web-tier) | Terraform AWS web tier: private EC2, IMDSv2, SSM, CloudTrail, GuardDuty, OIDC. tfsec 30 passed, 0 open; Trivy 0 misconfigurations (static checks, not applied) |
-| [signed-by-default](https://github.com/hustlerx01/signed-by-default) | cosign signing, SBOM attestation, SLSA provenance and Kyverno admission. Offline end-to-end run passes; keyless CI path not run yet |
-| [Automated-Security-Pipeline-DevSecOps](https://github.com/hustlerx01/Automated-Security-Pipeline-DevSecOps) | Jenkins pipeline adapted from an existing project: SonarQube quality gate, Trivy scan, Kubernetes deploy |
-| [runbook-bot](https://github.com/hustlerx01/runbook-bot) | Alertmanager alert to allow-listed diagnostics and a draft postmortem. 4/5 sample alerts matched; command-injection label blocked; 8 tests pass |
+| Project | Result | What it is |
+|---|---|---|
+| [hardened-aws-web-tier](https://github.com/hustlerx01/hardened-aws-web-tier) | tfsec 30 passed, 0 open | Terraform for an AWS web tier where only the load balancer is public: private EC2, IMDSv2, SSM instead of SSH, CloudTrail, GuardDuty, KMS and a repo-scoped GitHub OIDC role. |
+| [mini-cspm-aws](https://github.com/hustlerx01/mini-cspm-aws) | 20 CIS AWS checks | Posture checks in boto3 mapped to CIS AWS Foundations controls, run against a moto-mocked account. |
+| [k8s-policy-pack](https://github.com/hustlerx01/k8s-policy-pack) | 48/48 Kyverno tests pass | Six Pod Security controls written in both Kyverno and OPA/Rego with a parity test. |
+| [iac-scan-bench](https://github.com/hustlerx01/iac-scan-bench) | Checkov 10/11 planted | Plants 11 Terraform misconfigurations and measures what Checkov, tfsec and my own Rego rules actually catch. |
+| [signed-by-default](https://github.com/hustlerx01/signed-by-default) | Only signed images admitted | cosign signing, SBOM attestation and SLSA provenance for a small Go service, with Kyverno admitting only signed images. |
 
-### AI Security & AppSec
+### DevOps, SRE & NOC
 
-| Project | Result |
-|---|---|
-| [rag-redteam](https://github.com/hustlerx01/rag-redteam) | Indirect prompt-injection tests on a local RAG app. Attack success on qwen2.5:1.5b fell from 3/8 to 1/8; only the output guard helped |
-| [l1-copilot](https://github.com/hustlerx01/l1-copilot) | Local-LLM triage for Wazuh SSH alerts. Rule baseline F1 0.911 on 100 synthetic alerts; the 1.5B model reached recall 0.105 |
-| [api-qa-suite](https://github.com/hustlerx01/api-qa-suite) | API tests that catch 6/6 seeded OWASP API defects (9 failures) and pass 28/28 on the fixed build |
-| [secure-shortener](https://github.com/hustlerx01/secure-shortener) | URL shortener with each control mapped to an OWASP Top 10 test. 24 tests pass; metadata URL blocked with 400, brute force gets 429 |
+| Project | Result | What it is |
+|---|---|---|
+| [slo-lab](https://github.com/hustlerx01/slo-lab) | 6 promtool scenarios pass | Multi-window, multi-burn-rate SLO alerts for a synthetic checkout service. |
+| [bluegreen-deploy](https://github.com/hustlerx01/bluegreen-deploy) | 501 requests, 0 errors | Blue/green deploy with GitHub Actions, Docker and Nginx. |
+| [chaos-kit](https://github.com/hustlerx01/chaos-kit) | p95 662 ms to 160 ms | Fault injection against a sample service. |
+| [log-pipeline-lab](https://github.com/hustlerx01/log-pipeline-lab) | 3859 records, 0 dropped | Fluent Bit to Loki pipeline with parsing, enrichment and 4 LogQL alert rules, all loaded by the Loki ruler. |
+| [noc-probe-dashboard](https://github.com/hustlerx01/noc-probe-dashboard) | promtool rule tests pass | NOC monitoring with a small TCP, HTTP and ICMP probe exporter, Prometheus alert rules for target down, flapping, reboots and link saturation, and Grafana dashboards. |
 
-**More on GitHub:** [soar-mini](https://github.com/hustlerx01/soar-mini), [mini-cspm-aws](https://github.com/hustlerx01/mini-cspm-aws), [k8s-policy-pack](https://github.com/hustlerx01/k8s-policy-pack), [iac-scan-bench](https://github.com/hustlerx01/iac-scan-bench), [indicguard](https://github.com/hustlerx01/indicguard), [llm-redactor](https://github.com/hustlerx01/llm-redactor), [mcp-audit-lite](https://github.com/hustlerx01/mcp-audit-lite), [pcap-hunter](https://github.com/hustlerx01/pcap-hunter), [spring-secure-api](https://github.com/hustlerx01/spring-secure-api), [slo-lab](https://github.com/hustlerx01/slo-lab), [SSH-Log-Alert](https://github.com/hustlerx01/SSH-Log-Alert)
+### AI security
+
+| Project | Result | What it is |
+|---|---|---|
+| [rag-redteam](https://github.com/hustlerx01/rag-redteam) | Injection success 3/8 to 1/8 | Indirect prompt-injection tests against a local RAG app on qwen2.5:1.5b with three defences. |
+| [mcp-audit-lite](https://github.com/hustlerx01/mcp-audit-lite) | 19 findings, 0 on clean servers | Static scanner for MCP server manifests and source: tool poisoning, hardcoded secrets, shell=True and risky permissions. |
+| [indicguard](https://github.com/hustlerx01/indicguard) | Hindi and Marathi injections | Prompt-injection detection for Hindi, Hinglish and Marathi input. |
+| [llm-redactor](https://github.com/hustlerx01/llm-redactor) | Found and fixed a card regex bug | FastAPI middleware that redacts PII and secrets, including PAN, UPI and IFSC, from LLM output. |
+| [l1-copilot](https://github.com/hustlerx01/l1-copilot) | Local-LLM alert triage | Sends Wazuh SSH alerts to a local LLM, with input sanitising against prompt injection. |
+
+### VAPT, penetration testing & AppSec
+
+| Project | Result | What it is |
+|---|---|---|
+| [webvuln-scanner](https://github.com/hustlerx01/webvuln-scanner) | Flags TLS 1.0/1.1, weak cookies | CLI that checks security headers, cookie flags and TLS on sites you own and grades them. |
+| [secure-shortener](https://github.com/hustlerx01/secure-shortener) | OWASP Top 10, 24 tests | URL shortener where every control maps to an OWASP Top 10 category with a named test. |
+| [api-qa-suite](https://github.com/hustlerx01/api-qa-suite) | 6/6 seeded defects caught | Security and functional tests for an API with 6 seeded OWASP API Top 10 defects: 9 tests fail on the vulnerable build, all 28 pass on the fixed one. |
+| [Endpoint-Finder](https://github.com/hustlerx01/Endpoint-Finder) | One-click endpoint recon | Bookmarklet that lists endpoint URLs on a page by recursively fetching its scripts. |
+| [Browser-Autofill-Danger](https://github.com/hustlerx01/Browser-Autofill-Danger) | Exposes hidden autofill leaks | Live demo of autofill phishing: off-screen fields that the browser fills without the user seeing them. |
+
+### Software engineering & QA
+
+| Project | Result | What it is |
+|---|---|---|
+| [api-qa-suite](https://github.com/hustlerx01/api-qa-suite) | 6/6 seeded defects caught | pytest and schemathesis suite for an API with 6 seeded defects: 9 failures on the vulnerable build, 28 of 28 passing on the fixed build, stable across repeated runs. |
+| [spring-secure-api](https://github.com/hustlerx01/spring-secure-api) | 25 tests, 0 failures | Incident-ticket REST API in Java 17 and Spring Boot 3 with JWT, RBAC and IDOR protection, tested with JUnit 5 and MockMvc. |
+| [secure-shortener](https://github.com/hustlerx01/secure-shortener) | 24 tests pass | FastAPI URL shortener with auth and rate limiting, where each control has a named test. |
+| [bluegreen-deploy](https://github.com/hustlerx01/bluegreen-deploy) | 501 requests, 0 errors | Blue/green deploys with GitHub Actions, Docker and Nginx, with an end-to-end test that switches versions under load. |
+| [AWS-S3-Storage-Client](https://github.com/hustlerx01/AWS-S3-Storage-Client) | Expiring S3 share links | AeroVault: React and TypeScript S3 file manager with drag-and-drop uploads, previews and pre-signed share links. |
 
 ## Certifications
 
