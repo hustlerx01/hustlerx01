@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=5EEAD4&center=true&vCenter=true&width=520&lines=SOC+Analyst+in+the+making;Detection+Engineering;Cloud+%26+DevSecOps;AI+%2F+LLM+Security;CTF+Player+%E2%80%94+HTB+%C2%B7+THM" alt="SOC Analyst in the making · Detection Engineering · Cloud & DevSecOps · AI / LLM Security · CTF Player — HTB · THM" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=00372f&center=true&vCenter=true&width=520&lines=SOC+Analyst+in+the+making;Detection+Engineering;Cloud+%26+DevSecOps;AI+%2F+LLM+Security;CTF+Player+%E2%80%94+HTB+%C2%B7+THM" alt="SOC Analyst in the making · Detection Engineering · Cloud & DevSecOps · AI / LLM Security · CTF Player — HTB · THM" />
 </p>
 
 ```bash
