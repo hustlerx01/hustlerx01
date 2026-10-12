@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" role="img" aria-label="divider" shape-rendering="crispEdges">
-<defs><style> text{font-kerning:none;-webkit-font-smoothing:none;}</style>
-<pattern id="dith" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#1a1a1a"/><rect x="2" y="2" width="2" height="2" fill="#1a1a1a"/></pattern>
-<pattern id="dith2" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#2a2a2a"/></pattern>
-<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect y="0" width="4" height="2" fill="#000" fill-opacity=".35"/></pattern>
-</defs>
-<rect width="1200" height="24" fill="#0a0a0a"/>
-<rect x="40" y="10" width="1120" height="4" fill="url(#dith2)"/><rect x="572" y="8" width="8" height="8" fill="#555"/><rect x="588" y="8" width="8" height="8" fill="#888"/><rect x="604" y="8" width="8" height="8" fill="#bbb"/><rect x="620" y="8" width="8" height="8" fill="#fff"/><rect y="8" width="8" height="8" fill="#eaeaea"><animate attributeName="x" values="40;48;56;64;72;80;88;96;104;112;120;128;136;144;152;160;168;176;184;192;200;208;216;224;232;240;248;256;264;272;280;288;296;304;312;320;328;336;344;352;360;368;376;384;392;400;408;416;424;432;440;448;456;464;472;480;488;496;504;512;520;528;536;544;552;560;568;576;584;592;600;608;616;624;632;640;648;656;664;672;680;688;696;704;712;720;728;736;744;752;760;768;776;784;792;800;808;816;824;832;840;848;856;864;872;880;888;896;904;912;920;928;936;944;952;960;968;976;984;992;1000;1008;1016;1024;1032;1040;1048;1056;1064;1072;1080;1088;1096;1104;1112;1120;1128;1136;1144;1152" calcMode="discrete" dur="7s" repeatCount="indefinite"/></rect>
-</svg>

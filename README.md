@@ -1,20 +1,14 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="root@hustlerx:~# whoami — Ansar Shaikh // SOC · Cloud Security · Detection Engineering" width="100%"/>
+<img src="./assets/banner.svg" alt="HUSTLERX: security researcher · CTF player · Pune" width="100%"/>
 
-<br/>
+<br/><br/>
 
-[![Typing](https://readme-typing-svg.demolab.com?font=Silkscreen&weight=400&size=18&pause=1000&color=EAEAEA&center=true&vCenter=true&width=720&lines=security+engineer+%C2%B7+detection%2C+cloud+%26+AI+security;I+build+small+security+tools+and+test+them;then+I+write+down+what+they+missed)](https://github.com/hustlerx01)
-
-<br/>
-
-<p align="center"><a href="https://hustlerx.si"><img src="https://img.shields.io/badge/-hustlerx.si-0a0a0a?style=flat-square&logo=firefoxbrowser&logoColor=white&labelColor=1a1a1a"/></a>&nbsp;<img src="https://img.shields.io/badge/CEH-Practical-2a2a2a?style=flat-square&labelColor=1a1a1a"/>&nbsp;<img src="https://img.shields.io/github/followers/hustlerx01?style=flat-square&color=2a2a2a&labelColor=1a1a1a&logo=github&logoColor=white&label=followers"/>&nbsp;<img src="https://visitor-badge.laobi.icu/badge?page_id=hustlerx01.hustlerx01&left_text=visitors&left_color=%231a1a1a&right_color=%232a2a2a"/></p>
+<a href="https://hustlerx.si"><img src="https://img.shields.io/badge/HUSTLERX.SI-0a0a0a?style=for-the-badge&logo=firefoxbrowser&logoColor=white"/></a>&nbsp;<img src="https://img.shields.io/badge/CEH-PRACTICAL-1a1a1a?style=for-the-badge&labelColor=0a0a0a"/>&nbsp;<img src="https://img.shields.io/github/followers/hustlerx01?style=for-the-badge&color=1a1a1a&labelColor=0a0a0a&logo=github&logoColor=white&label=followers"/>&nbsp;<img src="https://visitor-badge.laobi.icu/badge?page_id=hustlerx01.hustlerx01&left_text=visitors&left_color=%230a0a0a&right_color=%232a2a2a"/>
 
 </div>
 
-<br/>
-<img src="./assets/divider.svg" width="100%"/>
-<br/>
+<br/><br/>
 
 <a id="about"></a>
 <img src="./assets/h-about.svg" width="100%" alt="About"/>
@@ -22,6 +16,8 @@
 > Security engineer in **Pune, India**, working on detection, cloud and AI security.
 
 I build small security tools, test them, and write down what they missed.
+
+<img src="./assets/status.svg" width="100%" alt="focus: detection, cloud, AI sec · tools: wazuh, sigma, suricata · cert: CEH Practical"/>
 
 ```bash
 ansar@hustlerx:~$ cat about.txt
@@ -33,15 +29,13 @@ certs     : CEH Practical (EC-Council)
 looking   : SOC / detection engineering, cloud security, AI security roles
 ```
 
-<br/>
-<img src="./assets/divider.svg" width="100%"/>
-<br/>
+<br/><br/>
 
 <a id="journey"></a>
 <img src="./assets/h-journey.svg" width="100%" alt="Journey"/>
 
 <div align="center">
-<img src="./assets/journey.svg" alt="Journey timeline: 2021 to now" width="100%"/>
+<img src="./assets/journey.svg" alt="HustlerX journey, 2021 to now" width="100%"/>
 </div>
 
 <details>
@@ -57,46 +51,42 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 </details>
 
-<br/>
-<img src="./assets/divider.svg" width="100%"/>
-<br/>
+<br/><br/>
 
 <a id="projects"></a>
 <img src="./assets/h-projects.svg" width="100%" alt="Featured projects"/>
 
-### SOC & detection
+#### `SOC & DETECTION`
 
-| Project | What it is |
-|---|---|
-| [siem-lab](https://github.com/hustlerx01/siem-lab) | Wazuh and Suricata in Docker with custom rules mapped to MITRE ATT&CK, replayed against public EVTX attack samples and a generated pcap. |
-| [detection-rules-as-code](https://github.com/hustlerx01/detection-rules-as-code) | Sigma rules, each with true- and false-positive sample events, a linter and a CI gate. |
-| [soc-honeypot-lab](https://github.com/hustlerx01/soc-honeypot-lab) | Honeypot log lab with Sentinel-style detections written as KQL, Sigma and Python that run locally, tested against labelled synthetic events. |
-| [phishdesk-in](https://github.com/hustlerx01/phishdesk-in) | Explains why an .eml looks like phishing: header authentication checks plus Indian bank and UPI lure rules. |
+| Project | Result | What it is |
+|---|---|---|
+| [siem-lab](https://github.com/hustlerx01/siem-lab) | 5/5 Suricata rules fired | Wazuh and Suricata in Docker with custom rules mapped to MITRE ATT&CK, replayed against public EVTX attack samples and a generated pcap. |
+| [detection-rules-as-code](https://github.com/hustlerx01/detection-rules-as-code) | 16/16 TP, 0/16 FP | 10 Sigma rules, each with true- and false-positive sample events, a linter and a CI gate. |
+| [soc-honeypot-lab](https://github.com/hustlerx01/soc-honeypot-lab) | 112 TP, 0 FP, 30 FN | Honeypot log lab with Sentinel-style detections written as KQL, Sigma and Python that run locally, scored against labelled synthetic events. |
+| [phishdesk-in](https://github.com/hustlerx01/phishdesk-in) | SPF, DKIM, DMARC + UPI lures | Explains why an .eml looks like phishing: header authentication checks plus Indian bank and UPI lure rules, tested on 69 synthetic lab emails. |
 
-### VAPT & AppSec
+#### `VAPT & APPSEC`
 
-| Project | What it is |
-|---|---|
-| [webvuln-scanner](https://github.com/hustlerx01/webvuln-scanner) | CLI that checks security headers, cookie flags and TLS on sites you own and grades them. |
-| [secure-shortener](https://github.com/hustlerx01/secure-shortener) | URL shortener where every control maps to an OWASP Top 10 category with a named test. |
-| [api-qa-suite](https://github.com/hustlerx01/api-qa-suite) | Security and functional tests for an API with seeded OWASP API Top 10 defects. |
-| [secrets-leak-guard](https://github.com/hustlerx01/secrets-leak-guard) | gitleaks rules for Indian formats (Razorpay keys, Aadhaar), a pre-commit hook that blocked a staged token, and a history scan. |
-| [vulnops](https://github.com/hustlerx01/vulnops) | Merges Trivy, Grype and ZAP output, removes cross-tool duplicates and ranks by CISA KEV, EPSS and CVSS. |
+| Project | Result | What it is |
+|---|---|---|
+| [webvuln-scanner](https://github.com/hustlerx01/webvuln-scanner) | Flags TLS 1.0/1.1, weak cookies | CLI that checks security headers, cookie flags and TLS on sites you own and grades them. |
+| [secure-shortener](https://github.com/hustlerx01/secure-shortener) | OWASP Top 10, 24 tests | URL shortener where every control maps to an OWASP Top 10 category with a named test. |
+| [api-qa-suite](https://github.com/hustlerx01/api-qa-suite) | 6/6 seeded defects caught | Security and functional tests for an API with 6 seeded OWASP API Top 10 defects: 9 tests fail on the vulnerable build, all 28 pass on the fixed one. |
+| [secrets-leak-guard](https://github.com/hustlerx01/secrets-leak-guard) | 10 TP, 0 FP, 0 FN | gitleaks rules for Indian formats (Razorpay keys, Aadhaar), a pre-commit hook that blocked a staged token, and a history scan. |
+| [vulnops](https://github.com/hustlerx01/vulnops) | 355 findings to 185 | Merges Trivy, Grype and ZAP output, removes cross-tool duplicates and ranks by CISA KEV, EPSS and CVSS. |
 
-### AI security
+#### `AI SECURITY`
 
-| Project | What it is |
-|---|---|
-| [rag-redteam](https://github.com/hustlerx01/rag-redteam) | Indirect prompt-injection tests against a local RAG app on qwen2.5:1.5b with layered defences. |
-| [mcp-audit-lite](https://github.com/hustlerx01/mcp-audit-lite) | Static scanner for MCP server manifests and source: tool poisoning, hardcoded secrets, shell=True and risky permissions. |
-| [indicguard](https://github.com/hustlerx01/indicguard) | Prompt-injection detection for Hindi, Hinglish and Marathi input. |
-| [llm-redactor](https://github.com/hustlerx01/llm-redactor) | FastAPI middleware that redacts PII and secrets, including PAN, UPI and IFSC, from LLM output. |
+| Project | Result | What it is |
+|---|---|---|
+| [rag-redteam](https://github.com/hustlerx01/rag-redteam) | Injection success 3/8 to 1/8 | Indirect prompt-injection tests against a local RAG app on qwen2.5:1.5b with three defences. |
+| [mcp-audit-lite](https://github.com/hustlerx01/mcp-audit-lite) | 19 findings, 0 on clean servers | Static scanner for MCP server manifests and source: tool poisoning, hardcoded secrets, shell=True and risky permissions. |
+| [indicguard](https://github.com/hustlerx01/indicguard) | Hindi and Marathi injections | Prompt-injection detection for Hindi, Hinglish and Marathi input. |
+| [llm-redactor](https://github.com/hustlerx01/llm-redactor) | Found and fixed a card regex bug | FastAPI middleware that redacts PII and secrets, including PAN, UPI and IFSC, from LLM output. |
 
 **Also built:** [hardened-aws-web-tier](https://github.com/hustlerx01/hardened-aws-web-tier), [mini-cspm-aws](https://github.com/hustlerx01/mini-cspm-aws), [k8s-policy-pack](https://github.com/hustlerx01/k8s-policy-pack), [iac-scan-bench](https://github.com/hustlerx01/iac-scan-bench), [signed-by-default](https://github.com/hustlerx01/signed-by-default), [slo-lab](https://github.com/hustlerx01/slo-lab), [bluegreen-deploy](https://github.com/hustlerx01/bluegreen-deploy), [chaos-kit](https://github.com/hustlerx01/chaos-kit), [log-pipeline-lab](https://github.com/hustlerx01/log-pipeline-lab), [spring-secure-api](https://github.com/hustlerx01/spring-secure-api), [pcap-hunter](https://github.com/hustlerx01/pcap-hunter), [ioc-aggregator](https://github.com/hustlerx01/ioc-aggregator)
 
-<br/>
-<img src="./assets/divider.svg" width="100%"/>
-<br/>
+<br/><br/>
 
 <a id="experience"></a>
 <img src="./assets/h-experience.svg" width="100%" alt="Experience & certifications"/>
@@ -107,15 +97,13 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 | May – Jun 2024 | ServiceNow System Administrator virtual internship (AICTE) |
 
 | Certification | Issuer | Date |
-|---|---|
+|---|---|---|
 | Certified Ethical Hacker (CEH) Practical | EC-Council | Oct 2025 |
 | arcX Foundation Threat Intelligence Analyst | arcX | Mar 2025 |
 | Certified AppSec Practitioner (CAP) | The SecOps Group | Mar 2024 |
 | Microsoft Azure Fundamentals (AZ-900) | Microsoft | Feb 2024 |
 
-<br/>
-<img src="./assets/divider.svg" width="100%"/>
-<br/>
+<br/><br/>
 
 <a id="stack"></a>
 <img src="./assets/h-stack.svg" width="100%" alt="Tech stack"/>
@@ -141,46 +129,37 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 **Platforms**  
 ![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-1a1a1a?style=flat-square&logo=nginx&logoColor=white)
 
-<br/>
-<img src="./assets/divider.svg" width="100%"/>
-<br/>
+<br/><br/>
 
 <a id="stats"></a>
 <img src="./assets/h-stats.svg" width="100%" alt="Stats"/>
 
 <div align="center">
 
-<img height="180" src="https://github-stats-extended.vercel.app/api?username=hustlerx01&show_icons=true&hide_rank=true&hide_border=false&border_color=2a2a2a&include_all_commits=true&count_private=true&bg_color=0a0a0a&title_color=ffffff&text_color=bbbbbb&icon_color=ffffff&ring_color=ffffff&hide=contribs,prs" alt="GitHub stats"/>
-<img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hustlerx01&layout=compact&hide_border=false&border_color=2a2a2a&langs_count=8&bg_color=0a0a0a&title_color=ffffff&text_color=bbbbbb&icon_color=ffffff" alt="top languages"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=hustlerx01&custom_title=HustlerX&show_icons=true&hide_rank=true&hide_border=false&border_color=2a2a2a&border_radius=0&include_all_commits=true&count_private=true&bg_color=0a0a0a&title_color=ffffff&text_color=bbbbbb&icon_color=ffffff" alt="GitHub stats"/>&nbsp;<img height="165" src="https://streak-stats.demolab.com/?user=hustlerx01&hide_border=false&border=2a2a2a&border_radius=0&background=0a0a0a&stroke=2a2a2a&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideNums=eaeaea&currStreakNum=ffffff&dates=888888&sideLabels=bbbbbb" alt="streak"/>
 
-<img height="180" src="https://streak-stats.demolab.com/?user=hustlerx01&hide_border=false&border=2a2a2a&background=0a0a0a&stroke=2a2a2a&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideNums=eaeaea&currStreakNum=ffffff&dates=888888&sideLabels=bbbbbb" alt="streak"/>
-
-<img width="100%" src="https://github-profile-trophy-unserori.vercel.app/?username=hustlerx01&theme=oldie&no-frame=true&column=-1&margin-w=8&margin-h=8" alt="trophies"/>
+<br/><br/>
 
 <img width="100%" src="https://raw.githubusercontent.com/hustlerx01/hustlerx01/output/github-contribution-grid-snake-dark.svg" alt="snake eating contributions"/>
 
 </div>
 
-<br/>
-<img src="./assets/divider.svg" width="100%"/>
-<br/>
+<br/><br/>
 
-<img src="./assets/quote.svg" width="100%" alt="a short security note"/>
+<img src="./assets/quote.svg" width="100%" alt="every alert is a question. good detections answer it before someone has to ask twice."/>
 
-<br/>
-<img src="./assets/divider.svg" width="100%"/>
-<br/>
+<br/><br/>
 
 <a id="contact"></a>
 <img src="./assets/h-contact.svg" width="100%" alt="Contact"/>
 
 <div align="center">
 <table><tr>
-<td align="center" width="20%"><a href="https://hustlerx.si"><img src="https://api.iconify.design/lucide/globe.svg?color=%23eaeaea" width="30" height="30"/><br/><b>website</b><br/><sub>hustlerx.si</sub></a></td>
-<td align="center" width="20%"><a href="https://www.linkedin.com/in/hustlerx"><img src="https://api.iconify.design/lucide/linkedin.svg?color=%23eaeaea" width="30" height="30"/><br/><b>linkedin</b><br/><sub>in/hustlerx</sub></a></td>
-<td align="center" width="20%"><a href="https://github.com/hustlerx01"><img src="https://api.iconify.design/lucide/github.svg?color=%23eaeaea" width="30" height="30"/><br/><b>github</b><br/><sub>@hustlerx01</sub></a></td>
-<td align="center" width="20%"><a href="mailto:ansarshaikh@hustlerx.si"><img src="https://api.iconify.design/lucide/mail.svg?color=%23eaeaea" width="30" height="30"/><br/><b>email</b><br/><sub>ansarshaikh@hustlerx.si</sub></a></td>
-<td align="center" width="20%"><a href="https://discord.com/users/974323061547479120"><img src="https://api.iconify.design/lucide/message-circle.svg?color=%23eaeaea" width="30" height="30"/><br/><b>discord</b><br/><sub>message me</sub></a></td>
+<td align="center" width="20%"><a href="https://hustlerx.si"><img src="https://api.iconify.design/lucide/globe.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>website</b><br/><sub>hustlerx.si</sub></td>
+<td align="center" width="20%"><a href="https://www.linkedin.com/in/hustlerx"><img src="https://api.iconify.design/lucide/linkedin.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>linkedin</b><br/><sub>in/hustlerx</sub></td>
+<td align="center" width="20%"><a href="https://github.com/hustlerx01"><img src="https://api.iconify.design/lucide/github.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>github</b><br/><sub>@hustlerx01</sub></td>
+<td align="center" width="20%"><a href="mailto:ansarshaikh@hustlerx.si"><img src="https://api.iconify.design/lucide/mail.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>email</b><br/><sub>ansarshaikh@hustlerx.si</sub></td>
+<td align="center" width="20%"><a href="https://discord.com/users/974323061547479120"><img src="https://api.iconify.design/lucide/message-circle.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>discord</b><br/><sub>message me</sub></td>
 </tr></table>
 </div>
 
