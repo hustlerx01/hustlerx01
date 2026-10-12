@@ -8,13 +8,7 @@
 
 <br/>
 
-<a href="https://hustlerx.si"><img src="https://img.shields.io/badge/-hustlerx.si-0a0612?style=flat-square&logo=firefoxbrowser&logoColor=A78BFA&labelColor=1a0f2e"/></a>
-&nbsp;
-<img src="https://img.shields.io/badge/CEH-Practical-432874?style=flat-square&logo=eccouncil&logoColor=E8D5B7&labelColor=1a0f2e"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/hustlerx01?style=flat-square&color=432874&labelColor=1a0f2e&logo=github&logoColor=A78BFA&label=followers"/>
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=hustlerx01&style=flat-square&color=432874&labelColor=1a0f2e&label=visitors"/>
+<p align="center"><a href="https://hustlerx.si"><img src="https://img.shields.io/badge/-hustlerx.si-0a0612?style=flat-square&logo=firefoxbrowser&logoColor=A78BFA&labelColor=1a0f2e"/></a>&nbsp;<img src="https://img.shields.io/badge/CEH-Practical-432874?style=flat-square&labelColor=1a0f2e"/>&nbsp;<img src="https://img.shields.io/github/followers/hustlerx01?style=flat-square&color=432874&labelColor=1a0f2e&logo=github&logoColor=A78BFA&label=followers"/>&nbsp;<img src="https://komarev.com/ghpvc/?username=hustlerx01&style=flat-square&color=432874&labelColor=1a0f2e&label=visitors"/></p>
 
 </div>
 
@@ -153,9 +147,9 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 <img height="180" src="https://github-stats-extended.vercel.app/api?username=hustlerx01&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0a0612&title_color=E8D5B7&text_color=C9B8D9&icon_color=A78BFA&hide=contribs,prs" alt="GitHub stats"/>
 <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hustlerx01&layout=compact&hide_border=true&langs_count=8&bg_color=0a0612&title_color=E8D5B7&text_color=C9B8D9&icon_color=A78BFA" alt="top languages"/>
 
-<img width="100%" src="https://streak-stats.demolab.com/?user=hustlerx01&hide_border=true&background=0a0612&stroke=432874&ring=A78BFA&fire=E8D5B7&currStreakLabel=E8D5B7&sideNums=C9B8D9&currStreakNum=E8D5B7&dates=C9B8D9&sideLabels=C9B8D9" alt="streak"/>
+<img height="180" src="https://streak-stats.demolab.com/?user=hustlerx01&hide_border=true&background=0a0612&stroke=432874&ring=A78BFA&fire=E8D5B7&currStreakLabel=E8D5B7&sideNums=C9B8D9&currStreakNum=E8D5B7&dates=C9B8D9&sideLabels=C9B8D9" alt="streak"/>
 
-<img width="100%" src="https://github-profile-trophy-unserori.vercel.app/?username=hustlerx01&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" alt="trophies"/>
+<img width="100%" src="https://github-profile-trophy-unserori.vercel.app/?username=hustlerx01&theme=darkhub&no-frame=true&column=-1&margin-w=8&margin-h=8" alt="trophies"/>
 
 <img width="100%" src="https://raw.githubusercontent.com/hustlerx01/hustlerx01/output/github-contribution-grid-snake-dark.svg" alt="snake eating contributions"/>
 
