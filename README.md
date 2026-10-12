@@ -30,10 +30,30 @@ I build small security tools, test them, and write down what they missed.
 ansar@hustlerx:~$ cat about.txt
 name      : Ansar Shaikh
 location  : Pune, India
-education : B.E. Information Technology (2025), Honours in Cybersecurity
+education : B.E. Information Technology (2025), Honours in Cybersecurity, CGPA 8.38
 certs     : CEH Practical (EC-Council)
 looking   : SOC / detection engineering, cloud security, AI security roles
 ```
+
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp;Journey
+
+<div align="center">
+<img src="./assets/journey.svg" alt="Journey timeline: 2024 to now" width="100%"/>
+</div>
+
+<details>
+<summary><sub>&nbsp;view as table</sub></summary>
+
+| When | What |
+|:---:|:---|
+| May – Jun 2024 | ServiceNow System Administrator virtual internship (AICTE) |
+| 2025 | B.E. Information Technology, Honours in Cybersecurity, CGPA 8.38 |
+| Aug 2025 → now | CTF Player and Security Researcher, Hack The Box & TryHackMe |
+| Oct 2025 | CEH Practical, EC-Council |
+
+</details>
 
 <img src="./assets/divider.svg" width="100%"/>
 
@@ -140,6 +160,10 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 <img width="100%" src="https://raw.githubusercontent.com/hustlerx01/hustlerx01/output/github-contribution-grid-snake-dark.svg" alt="snake eating contributions"/>
 
 </div>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<img src="./assets/quote.svg" width="100%" alt="a short security note"/>
 
 <img src="./assets/divider.svg" width="100%"/>
 
