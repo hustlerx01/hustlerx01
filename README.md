@@ -24,7 +24,8 @@ I build small security tools, test them, and write down what they missed.
 ansar@hustlerx:~$ cat about.txt
 name      : Ansar Shaikh
 location  : Pune, India
-education : B.E. Information Technology (2025), Honours in Cybersecurity, CGPA 8.38
+education : Sinhgad Institute of Technology & Science (SPPU), Pune
+            B.E. IT, Cybersecurity honours, 2021-2025, CGPA 8.38
 certs     : CEH Practical (EC-Council)
 looking   : SOC / detection engineering, cloud security, AI security roles
 ```
@@ -42,8 +43,9 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 | When | What |
 |:---:|:---|
+| 2021 | Joined Sinhgad Institute of Technology & Science (SPPU), Pune: B.E. Information Technology, Honours in Cybersecurity |
 | May – Jun 2024 | ServiceNow System Administrator virtual internship (AICTE) |
-| 2025 | B.E. Information Technology, Honours in Cybersecurity, CGPA 8.38 |
+| Jul 2025 | Graduated B.E. IT, Cybersecurity honours, CGPA 8.38, no backlogs |
 | Aug 2025 → now | CTF Player and Security Researcher, Hack The Box & TryHackMe |
 | Oct 2025 | CEH Practical, EC-Council |
 
@@ -162,3 +164,5 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 <br/>
 
 <img src="./assets/footer.svg" width="100%"/>
+
+<p align="center"><sub>Design adapted from <a href="https://github.com/MKishoreDev">MKishoreDev</a></sub></p>

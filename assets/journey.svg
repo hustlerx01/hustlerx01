@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Journey timeline: 2024 to now">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Journey timeline: 2021 to now">
   <!--
     journey.svg · a horizontal timeline that reads as one line of code.
     Every milestone is a node on a gradient rail; the current year pulses.
@@ -31,8 +31,8 @@
     </symbol>
   </defs>
 
-  <rect width="1200" height="260" fill="url(#jbg)"/>
-  <rect width="1200" height="260" fill="url(#shimmer)" pointer-events="none">
+  <rect width="1200" height="280" fill="url(#jbg)"/>
+  <rect width="1200" height="280" fill="url(#shimmer)" pointer-events="none">
     <animate attributeName="x" values="-1200;1200" dur="4s" repeatCount="indefinite" begin="0.6s"/>
   </rect>
 
@@ -47,40 +47,48 @@
 
   <!-- year ticks -->
   <g font-family="ui-monospace,monospace" font-size="12" fill="#c9b8d9" text-anchor="middle">
-    <g transform="translate(170 130)">
+    <g transform="translate(140 130)">
+      <use href="#milestone"/>
+      <text y="-24" fill="#e8d5b7">2021</text>
+      <text y="34" font-size="10" fill="#8a7a9d">Joined Sinhgad Institute of</text>
+      <text y="50" font-size="10" fill="#8a7a9d">Technology &amp; Science (SPPU)</text>
+      <text y="66" font-size="10" fill="#a78bfa">B.E. IT · Cybersecurity honours</text>
+    </g>
+    <g transform="translate(370 130)">
       <use href="#milestone"/>
       <text y="-24" fill="#e8d5b7">May – Jun 2024</text>
-      <text y="34" font-size="10.5" fill="#8a7a9d">ServiceNow System Admin</text>
-      <text y="50" font-size="10.5" fill="#8a7a9d">virtual internship · AICTE</text>
+      <text y="34" font-size="10" fill="#8a7a9d">ServiceNow System Admin</text>
+      <text y="50" font-size="10" fill="#8a7a9d">virtual internship · AICTE</text>
     </g>
-    <g transform="translate(430 130)">
+    <g transform="translate(600 130)">
       <use href="#milestone"/>
-      <text y="-24" fill="#e8d5b7">2025</text>
-      <text y="34" font-size="10.5" fill="#8a7a9d">B.E. Information Technology</text>
-      <text y="50" font-size="10.5" fill="#a78bfa">Cybersecurity honours · CGPA 8.38</text>
+      <text y="-24" fill="#e8d5b7">Jul 2025</text>
+      <text y="34" font-size="10" fill="#8a7a9d">Graduated B.E. IT</text>
+      <text y="50" font-size="10" fill="#8a7a9d">Cybersecurity honours</text>
+      <text y="66" font-size="10" fill="#a78bfa">CGPA 8.38 · no backlogs</text>
     </g>
-    <g transform="translate(700 130)">
-      <use href="#milestone"/>
-      <text y="-24" fill="#e8d5b7">Oct 2025</text>
-      <text y="34" font-size="10.5" fill="#8a7a9d">CEH Practical</text>
-      <text y="50" font-size="10.5" fill="#8a7a9d">EC-Council</text>
-    </g>
-    <g transform="translate(1000 130)">
+    <g transform="translate(830 130)">
       <circle r="14" fill="#a78bfa" opacity="0.25">
-        <animate attributeName="r"       values="10;18;10" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="10;18;10" dur="3s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0.35;0.05;0.35" dur="3s" repeatCount="indefinite"/>
       </circle>
       <use href="#milestone"/>
       <text y="-24" fill="#f5e6d3">Aug 2025 → now</text>
-      <text y="34" font-size="10.5" fill="#a78bfa">CTF player · security researcher</text>
-      <text y="50" font-size="10.5" fill="#8a7a9d">Hack The Box · TryHackMe</text>
+      <text y="34" font-size="10" fill="#a78bfa">CTF player · security researcher</text>
+      <text y="50" font-size="10" fill="#8a7a9d">Hack The Box · TryHackMe</text>
+    </g>
+    <g transform="translate(1060 130)">
+      <use href="#milestone"/>
+      <text y="-24" fill="#e8d5b7">Oct 2025</text>
+      <text y="34" font-size="10" fill="#8a7a9d">CEH Practical</text>
+      <text y="50" font-size="10" fill="#8a7a9d">EC-Council</text>
     </g>
   </g>
 
   <!-- terminal footer -->
-  <g transform="translate(60 232)">
+  <g transform="translate(60 252)">
     <text font-family="ui-monospace,monospace" font-size="10.5" fill="#6d5da8" letter-spacing="1.5">
-      <tspan fill="#a78bfa">$</tspan> git log --since=2024 --pretty=oneline
+      <tspan fill="#a78bfa">$</tspan> git log --since=2021 --pretty=oneline
     </text>
     <rect x="315" y="-8" width="6" height="10" fill="#e8d5b7">
       <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
