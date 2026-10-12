@@ -14,7 +14,17 @@ ctf       : CloudSEK CTF 2025, 13th place
 looking   : SOC / detection engineering, cloud security, AI security roles
 ```
 
-**Portfolio:** [hustlerx.si/security](https://hustlerx.si/security)
+## Pick a role
+
+| Role | Page |
+|---|---|
+| Security (SOC, VAPT and AI security combined) | [hustlerx.si/security](https://hustlerx.si/security) |
+| SOC analyst (L1/L2) | [hustlerx.si/soc](https://hustlerx.si/soc) |
+| Cloud security & DevSecOps | [hustlerx.si/cloud](https://hustlerx.si/cloud) |
+| DevOps, SRE & NOC | [hustlerx.si/devops](https://hustlerx.si/devops) |
+| AI security | [hustlerx.si/ai-security](https://hustlerx.si/ai-security) |
+| VAPT, penetration testing & AppSec | [hustlerx.si/vapt](https://hustlerx.si/vapt) |
+| Software engineering & QA | [hustlerx.si/swe](https://hustlerx.si/swe) |
 
 ## Featured projects
 
