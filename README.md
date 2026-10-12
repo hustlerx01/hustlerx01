@@ -2,13 +2,9 @@
 
 <img src="./assets/banner.svg" alt="HUSTLERX: security researcher · CTF player · Pune" width="100%"/>
 
-<br/><br/>
-
-<a href="https://hustlerx.si"><img src="https://img.shields.io/badge/HUSTLERX.SI-0a0a0a?style=for-the-badge&logo=firefoxbrowser&logoColor=white"/></a>&nbsp;<img src="https://img.shields.io/badge/CEH-PRACTICAL-1a1a1a?style=for-the-badge&labelColor=0a0a0a"/>&nbsp;<img src="https://img.shields.io/github/followers/hustlerx01?style=for-the-badge&color=1a1a1a&labelColor=0a0a0a&logo=github&logoColor=white&label=followers"/>&nbsp;<img src="https://visitor-badge.laobi.icu/badge?page_id=hustlerx01.hustlerx01&left_text=visitors&left_color=%230a0a0a&right_color=%232a2a2a"/>
+<a href="https://hustlerx.si"><img src="https://img.shields.io/badge/HUSTLERX.SI-0a0a0a?style=for-the-badge&logo=firefoxbrowser&logoColor=white"/></a>&nbsp;<img src="https://img.shields.io/badge/CEH-PRACTICAL-1a1a1a?style=for-the-badge&labelColor=0a0a0a"/>&nbsp;<img src="https://img.shields.io/github/followers/hustlerx01?style=for-the-badge&color=1a1a1a&labelColor=0a0a0a&logo=github&logoColor=white&label=followers"/>&nbsp;<img src="https://hits.sh/github.com/hustlerx01.svg?style=for-the-badge&label=visitors&color=1a1a1a&labelColor=0a0a0a"/>
 
 </div>
-
-<br/><br/>
 
 <a id="about"></a>
 <img src="./assets/h-about.svg" width="100%" alt="About"/>
@@ -29,8 +25,6 @@ certs     : CEH Practical (EC-Council)
 looking   : SOC / detection engineering, cloud security, AI security roles
 ```
 
-<br/><br/>
-
 <a id="journey"></a>
 <img src="./assets/h-journey.svg" width="100%" alt="Journey"/>
 
@@ -50,8 +44,6 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 | Oct 2025 | CEH Practical, EC-Council |
 
 </details>
-
-<br/><br/>
 
 <a id="projects"></a>
 <img src="./assets/h-projects.svg" width="100%" alt="Featured projects"/>
@@ -86,8 +78,6 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 **Also built:** [hardened-aws-web-tier](https://github.com/hustlerx01/hardened-aws-web-tier), [mini-cspm-aws](https://github.com/hustlerx01/mini-cspm-aws), [k8s-policy-pack](https://github.com/hustlerx01/k8s-policy-pack), [iac-scan-bench](https://github.com/hustlerx01/iac-scan-bench), [signed-by-default](https://github.com/hustlerx01/signed-by-default), [slo-lab](https://github.com/hustlerx01/slo-lab), [bluegreen-deploy](https://github.com/hustlerx01/bluegreen-deploy), [chaos-kit](https://github.com/hustlerx01/chaos-kit), [log-pipeline-lab](https://github.com/hustlerx01/log-pipeline-lab), [spring-secure-api](https://github.com/hustlerx01/spring-secure-api), [pcap-hunter](https://github.com/hustlerx01/pcap-hunter), [ioc-aggregator](https://github.com/hustlerx01/ioc-aggregator)
 
-<br/><br/>
-
 <a id="experience"></a>
 <img src="./assets/h-experience.svg" width="100%" alt="Experience & certifications"/>
 
@@ -102,8 +92,6 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 | arcX Foundation Threat Intelligence Analyst | arcX | Mar 2025 |
 | Certified AppSec Practitioner (CAP) | The SecOps Group | Mar 2024 |
 | Microsoft Azure Fundamentals (AZ-900) | Microsoft | Feb 2024 |
-
-<br/><br/>
 
 <a id="stack"></a>
 <img src="./assets/h-stack.svg" width="100%" alt="Tech stack"/>
@@ -129,8 +117,6 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 **Platforms**  
 ![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-1a1a1a?style=flat-square&logo=nginx&logoColor=white)
 
-<br/><br/>
-
 <a id="stats"></a>
 <img src="./assets/h-stats.svg" width="100%" alt="Stats"/>
 
@@ -138,31 +124,24 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 
 <img height="165" src="https://github-stats-extended.vercel.app/api?username=hustlerx01&custom_title=HustlerX&show_icons=true&hide_rank=true&hide_border=false&border_color=2a2a2a&border_radius=0&include_all_commits=true&count_private=true&bg_color=0a0a0a&title_color=ffffff&text_color=bbbbbb&icon_color=ffffff" alt="GitHub stats"/>&nbsp;<img height="165" src="https://streak-stats.demolab.com/?user=hustlerx01&hide_border=false&border=2a2a2a&border_radius=0&background=0a0a0a&stroke=2a2a2a&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideNums=eaeaea&currStreakNum=ffffff&dates=888888&sideLabels=bbbbbb" alt="streak"/>
 
-<br/><br/>
-
 <img width="100%" src="https://raw.githubusercontent.com/hustlerx01/hustlerx01/output/github-contribution-grid-snake-dark.svg" alt="snake eating contributions"/>
 
 </div>
 
-<br/><br/>
-
 <img src="./assets/quote.svg" width="100%" alt="every alert is a question. good detections answer it before someone has to ask twice."/>
-
-<br/><br/>
 
 <a id="contact"></a>
 <img src="./assets/h-contact.svg" width="100%" alt="Contact"/>
 
 <div align="center">
 <table><tr>
-<td align="center" width="20%"><a href="https://hustlerx.si"><img src="https://api.iconify.design/lucide/globe.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>website</b><br/><sub>hustlerx.si</sub></td>
-<td align="center" width="20%"><a href="https://www.linkedin.com/in/hustlerx"><img src="https://api.iconify.design/lucide/linkedin.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>linkedin</b><br/><sub>in/hustlerx</sub></td>
-<td align="center" width="20%"><a href="https://github.com/hustlerx01"><img src="https://api.iconify.design/lucide/github.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>github</b><br/><sub>@hustlerx01</sub></td>
-<td align="center" width="20%"><a href="mailto:ansarshaikh@hustlerx.si"><img src="https://api.iconify.design/lucide/mail.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>email</b><br/><sub>ansarshaikh@hustlerx.si</sub></td>
-<td align="center" width="20%"><a href="https://discord.com/users/974323061547479120"><img src="https://api.iconify.design/lucide/message-circle.svg?color=%23ffffff" width="28" height="28"/></a><br/><b>discord</b><br/><sub>message me</sub></td>
+<td align="center" width="96"><a href="https://hustlerx.si"><img src="https://api.iconify.design/lucide/globe.svg?color=%23ffffff" width="24" height="24"/><br/><sub><b>website</b></sub></a></td>
+<td align="center" width="96"><a href="https://www.linkedin.com/in/hustlerx"><img src="https://api.iconify.design/lucide/linkedin.svg?color=%23ffffff" width="24" height="24"/><br/><sub><b>linkedin</b></sub></a></td>
+<td align="center" width="96"><a href="https://github.com/hustlerx01"><img src="https://api.iconify.design/lucide/github.svg?color=%23ffffff" width="24" height="24"/><br/><sub><b>github</b></sub></a></td>
+<td align="center" width="96"><a href="mailto:ansarshaikh@hustlerx.si"><img src="https://api.iconify.design/lucide/mail.svg?color=%23ffffff" width="24" height="24"/><br/><sub><b>email</b></sub></a></td>
+<td align="center" width="96"><a href="https://discord.com/users/974323061547479120"><img src="https://api.iconify.design/lucide/message-circle.svg?color=%23ffffff" width="24" height="24"/><br/><sub><b>discord</b></sub></a></td>
 </tr></table>
 </div>
 
-<br/>
 
 <img src="./assets/footer.svg" width="100%"/>
