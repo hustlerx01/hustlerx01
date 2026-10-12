@@ -102,4 +102,4 @@ looking   : SOC / detection engineering, cloud security, AI security roles
 [![Hack The Box](https://img.shields.io/badge/Hack%20The%20Box-profile-9FEF00?style=flat-square&logo=hackthebox&logoColor=black)](https://www.hackthebox.com/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-profile-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/)
 [![Discord](https://img.shields.io/badge/Discord-message-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/974323061547479120)
-[![Email](https://img.shields.io/badge/Email-ansar%40hustlerx.si-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ansar@hustlerx.si)
+[![Email](https://img.shields.io/badge/Email-ansarshaikh%40hustlerx.si-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ansarshaikh@hustlerx.si)
