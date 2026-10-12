@@ -128,7 +128,7 @@ Open to **SOC / security analyst, cloud security, DevSecOps / SRE and AI securit
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
 ## 📫 Contact
-[![Portfolio](https://img.shields.io/badge/Portfolio-hustlerx.pro-000000?style=flat-square&logo=vercel&logoColor=white)](https://hustlerx.pro)
+[![Portfolio](https://img.shields.io/badge/Portfolio-hustlerx.si-000000?style=flat-square&logo=vercel&logoColor=white)](https://hustlerx.si)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hustlerx-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hustlerx)
 [![Discord](https://img.shields.io/badge/Discord-message-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/974323061547479120)
-[![Email](https://img.shields.io/badge/Email-ansarshaikh.cyber%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ansarshaikh.cyber@gmail.com)
+[![Email](https://img.shields.io/badge/Email-ansar%40hustlerx.si-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ansar@hustlerx.si)
